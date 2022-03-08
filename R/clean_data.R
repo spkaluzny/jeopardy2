@@ -37,7 +37,7 @@ if(length(indxOccHasFromEnd) > 0) {
 # Remove "From" from the from variable:
 from2 <- gsub("^From ", "", from2)
 from2 <- gsub(" From$", "", from2)
-# Fix know misspelled / problem from values:
+# Fix known misspelled / problem from values:
 fixfrom <- function(x, old, new) {
   indx <- which(x == old)
   if(length(indx) > 0) {
