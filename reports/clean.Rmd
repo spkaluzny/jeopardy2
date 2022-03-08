@@ -1,0 +1,213 @@
+---
+title: "Cleaning Jeopardy Data"
+author: "Stephen Kaluzny"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document:
+    theme: cerulean
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+## Data
+
+Read the delimited data file.
+```{r read_data}
+dfile <- "game_player_score.txt"
+dpath <- here::here(file.path("data", dfile))
+d <- read.table(dpath, header=TRUE, sep="|", quote='"', comment="")
+d[["date"]] <- as.Date(d[["date"]])
+```
+
+The data has `r nrow(d)` observations and `r ncol(d)` variables.
+
+There are `r length(unique(d$game))` unique games
+and `r length(unique(d$show))` unique shows.
+
+The variable names and type.
+```{r data_type}
+sapply(d, class)
+```
+
+
+## Data Clean Up
+
+The `occupation`, `from`, and `last` variables need work.
+We extract them, do the fix up and then put them back into the data.frame.
+
+```{r extract_from_occupation_last}
+from2 <- d[["from"]]
+occupation2 <- d[["occupation"]]
+last2 <- d[["last"]]
+```
+
+The scraped data has errors with the `last` name suffix "JR." being included
+with `occupation`
+
+```{r clean01}
+# Fix occupation and from
+# occupation includes "JR.," at start, add to end of last:
+indx_jr <- grep("\\bjr\\., ", occupation2, ignore.case=TRUE)
+if(length(indx_jr) > 0) {
+  occupation2[indx_jr] <- gsub("^JR\\., ", "", occupation2[indx_jr])
+  last2[indx_jr] <- paste0(last2[indx_jr] , ", Jr.")
+}
+```
+
+The word `Originally` gets mixed in with `occupation`.
+Just remove it.
+The word `From` ends up in `occupation`, remove it.
+
+```{r clean02}
+# occupation include "Originally" at the end, remove:
+occupation2 <- gsub(" Originally$", "", occupation2)
+# No occupation, just the word "From", set to NA:
+indxFrom <- which(occupation2 == "From")
+if(length(indxFrom) > 0) {
+  occupation2[indxFrom] <- NA
+}
+# No occupation, just the word "Originally", set to NA:
+indxOriginally <- which(occupation2 == "Originally")
+if(length(indxOriginally) > 0) {
+  occupation2[indxOriginally] <- NA
+}
+# occupation starts with "From" and from is NA, swap:
+indxOccHasFromStart <- grep("^From ", occupation2)
+indxFromNA <- which(is.na(from2))
+indxOccToFrom <- intersect(indxOccHasFromStart, indxFromNA)
+if(length(indxOccToFrom) > 0) {
+  from2[indxOccToFrom] <- occupation2[indxOccToFrom]
+  occupation2[indxOccToFrom] <- NA
+}
+# occupation ends with "From", remove it:
+indxOccHasFromEnd <- grep("\\sFrom$", occupation2)
+if(length(indxOccHasFromEnd) > 0) {
+  occupation2[indxOccHasFromEnd] <- gsub("\\sFrom$", "",
+    occupation2[indxOccHasFromEnd])
+}
+# Remove "From" from the from variable:
+from2 <- gsub("^From ", "", from2)
+from2 <- gsub(" From$", "", from2)
+```
+From previous working with the J Archive data some misspelled
+occupation and location values.
+Correct with the `fixfrom` function.
+
+```{r clean03}
+# Fix known misspelled / problem from values:
+fixfrom <- function(x, old, new) {
+  indx <- which(x == old)
+  if(length(indx) > 0) {
+    x[indx] <- new
+  }
+  x
+}
+from2 <- fixfrom(from2, "New York City", "New York, New York")
+from2 <- fixfrom(from2, "The Bronx", "New York, New York")
+from2 <- fixfrom(from2, "West Hartford", "West Hartford, Connecticut")
+from2 <- fixfrom(from2, "Lynn Massachusetts", "Lynn, Massachusetts")
+from2 <- fixfrom(from2, "San Francisco", "San Francisco, California")
+from2 <- fixfrom(from2, "San Jose California", "San Jose, California")
+from2 <- fixfrom(from2, "Kansas City", "Kansas City, Missouri")
+from2 <- fixfrom(from2, "ST. Louis", "St. Louis, Missouri")
+from2 <- fixfrom(from2, "New York State", "New York")
+from2 <- fixfrom(from2, "Carmel Valley", "Carmel Valley, California")
+from2 <- fixfrom(from2, "Easton Maryland", "Easton, Maryland")
+from2 <- fixfrom(from2, "Trinidad And Tobago And Now In New York",
+  "New York, New York")
+from2 <- fixfrom(from2, "Sandy Mannix", NA)
+```
+
+Now add the revised `last2`, `from2` and `occupation2`
+to the original data.frame.
+
+```{r update_data.frame}
+d[["last2"]] <- last2
+d[["from2"]] <- from2
+d[["occupation2"]] <- occupation2
+```
+## Non-Regular Jeopardy Games
+
+Over the years Jeopardy has had a number of special games.
+These include an annual Tournament of Champions,
+Celebrity Jeopardy, College and Children Tournament.
+These games do not follow the standard winner moves on format.
+As such, they will be removed.
+
+To find these non-regular games the comments variable is searched
+for particular words used in describing these games.
+
+```{r find_non_regular}
+indx_tournament <- grep("tournament", d[["comments"]], ignore.case=TRUE)
+indx_championship <- grep("championship", d[["comments"]], ignore.case=TRUE)
+indx_super_jeopardy <- grep("Super Jeopardy", d[["comments"]], ignore.case=TRUE)
+indx_celebrity <- grep("celebrity", d[["comments"]], ignore.case=TRUE)
+indx_battle <- grep("\\bbattle\\b", d[["comments"]], ignore.case=TRUE)
+indx_kids <- grep("\\bkids week\\b", d[["comments"]], ignore.case=TRUE)
+indx_power <- grep("\\bpower players\\b", d[["comments"]], ignore.case=TRUE)
+indx_backtoschool <- grep("\\bback to school\\b", d[["comments"]], ignore.case=TRUE)
+indx_goat <- grep("\\bgreatest of all time\\b", d[["comments"]], ignore.case=TRUE)
+indx_quarterfinal <- grep("quarterfinal", d[["comments"]], ignore.case=TRUE)
+indx_semifinal <- grep("semifinal", d[["comments"]], ignore.case=TRUE)
+indx_final <- grep("\\bfinal game", d[["comments"]], ignore.case=TRUE)
+```
+
+We combine all these sesarch results (indices) and take the union.
+```{r indx_not_regular}
+indx_not_regular <- sort(unique(c(
+  indx_tournament,
+  indx_championship,
+  indx_super_jeopardy,
+  indx_celebrity,
+  indx_battle,
+  indx_kids,
+  indx_power,
+  indx_backtoschool,
+  indx_goat,
+  indx_quarterfinal,
+  indx_semifinal,
+  indx_final
+)))
+```
+
+There are some regular games where the words Tournament or Battle were
+used in the comments.
+We want to keep those games.
+
+```{r keep_games}
+# Keep games: 3970 4085 4305 4364,
+# Regular game with the word Tournament or Battle in comment:
+indx_3970 <- which(d[["game"]] == 3970)
+indx_not_regular <- setdiff(indx_not_regular, indx_3970)
+indx_4085 <- which(d[["game"]] == 4085)
+indx_not_regular <- setdiff(indx_not_regular, indx_4085)
+indx_4305 <- which(d[["game"]] == 4305)
+indx_not_regular <- setdiff(indx_not_regular, indx_4305)
+indx_4364 <- which(d[["game"]] == 4364)
+indx_not_regular <- setdiff(indx_not_regular, indx_4364)
+```
+
+Now remove all the non-regular games.
+Use the regular games data set going forward.
+
+```{r drop_non_regular}
+d <- d[-indx_not_regular,]
+```
+
+## Missing Values
+
+How many missing values in each variable.
+
+```{r missing}
+sapply(d, function(x) sum(is.na(x)))
+```
+
+## Data Verification
+
+```{r range_of_date}
+range(d$date)
+```
