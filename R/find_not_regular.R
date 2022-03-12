@@ -6,6 +6,7 @@ indx_battle <- grep("\\bbattle\\b", d[["comments"]], ignore.case=TRUE)
 indx_kids <- grep("\\bkids week\\b", d[["comments"]], ignore.case=TRUE)
 indx_power <- grep("\\bpower players\\b", d[["comments"]], ignore.case=TRUE)
 indx_backtoschool <- grep("\\bback to school\\b", d[["comments"]], ignore.case=TRUE)
+indx_allstar <- grep("All-Star", d[["comments"]], ignore.case=TRUE)
 indx_goat <- grep("\\bgreatest of all time\\b", d[["comments"]], ignore.case=TRUE)
 # indx_teen <- grep("\\bteen\\b", d[["comments"]], ignore.case=TRUE)
 #indx_million <- grep("\\bmillion dollar\\b", d[["comments"]], ignore.case=TRUE)
@@ -25,6 +26,7 @@ indx_not_regular <- sort(unique(c(
   indx_kids,
   indx_power,
   indx_backtoschool,
+  indx_allstar,
   indx_goat,
   indx_quarterfinal,
   indx_semifinal,
@@ -41,3 +43,9 @@ indx_4305 <- which(d[["game"]] == 4305)
 indx_not_regular <- setdiff(indx_not_regular, indx_4305)
 indx_4364 <- which(d[["game"]] == 4364)
 indx_not_regular <- setdiff(indx_not_regular, indx_4364)
+
+# Drop games: 1309, 1317
+# Early Trebek pilots that duplidate show numbers 1 and 2
+indx_1309 <- which(d[["game"]] == 1309)
+indx_1317 <- which(d[["game"]] == 1317)
+indx_not_regular <- c(indx_not_regular, indx_1309, indx_1317)

@@ -13,6 +13,12 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Introduction
 
+## Setup
+
+```{r dplyr}
+library("dplyr", quietly= TRUE, warn.conflicts = FALSE)
+```
+
 ## Data
 
 Read the delimited data file.
@@ -150,6 +156,7 @@ indx_battle <- grep("\\bbattle\\b", d[["comments"]], ignore.case=TRUE)
 indx_kids <- grep("\\bkids week\\b", d[["comments"]], ignore.case=TRUE)
 indx_power <- grep("\\bpower players\\b", d[["comments"]], ignore.case=TRUE)
 indx_backtoschool <- grep("\\bback to school\\b", d[["comments"]], ignore.case=TRUE)
+indx_allstar <- grep("All-Star", d[["comments"]], ignore.case=TRUE)
 indx_goat <- grep("\\bgreatest of all time\\b", d[["comments"]], ignore.case=TRUE)
 indx_quarterfinal <- grep("quarterfinal", d[["comments"]], ignore.case=TRUE)
 indx_semifinal <- grep("semifinal", d[["comments"]], ignore.case=TRUE)
@@ -167,6 +174,7 @@ indx_not_regular <- sort(unique(c(
   indx_kids,
   indx_power,
   indx_backtoschool,
+  indx_allstar,
   indx_goat,
   indx_quarterfinal,
   indx_semifinal,
@@ -191,11 +199,61 @@ indx_4364 <- which(d[["game"]] == 4364)
 indx_not_regular <- setdiff(indx_not_regular, indx_4364)
 ```
 
+Early Trebek pilots that duplidate show numbers 1 and 2, should be dropped.
+```{r drop games}
+indx_1309 <- which(d[["game"]] == 1309)
+indx_1317 <- which(d[["game"]] == 1317)
+indx_not_regular <- c(indx_not_regular, indx_1309, indx_1317)
+```
+
 Now remove all the non-regular games.
 Use the regular games data set going forward.
 
 ```{r drop_non_regular}
 d <- d[-indx_not_regular,]
+```
+
+## Additional Variables
+
+Add a logical variable, `iswinner`, to denote the winner of game.
+```{r winner}
+isWinner <-
+function (x)
+{
+    r <- rank(x)
+    if (all(r == 2)) {
+        r <- c(4, 4, 4)
+    }
+    (r == 3) | (r == 2.5) | (r == 4)
+}
+d <- d %>%
+  group_by(show) %>%
+  mutate(iswinner = isWinner(final)) %>%
+  ungroup()
+```
+
+After November 23, 2001 the game doubled the dollar amounts for each answer.
+A `gamemaxvalue` variable was added to distinguish games before and after the change:
+
+```{r gamemax}
+d[["gamemaxvalue"]] <- ifelse(d[["date"]] < as.Date("2001-11-23"),
+    "max1000", "max2000")
+```
+
+Starting with the September 8, 2003 game winners were no longer limited to
+playing only 5 games.
+They now return until they lose.
+A logical `is5limit` variable was added to distinguish games where
+5 game limit (`is5limit TRUE`) was in effect and those without the limit.
+
+```{r is5limit}
+d[["is5limit"]] <- d[["date"]] < as.Date("2003-09-08")
+```
+
+## Save Clean Data
+Save R object of the clean regular games data set.
+```{r save_clean_regular}
+saveRDS(d, here::here("data/reg_player_score.rds"))
 ```
 
 ## Missing Values

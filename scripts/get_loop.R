@@ -2,8 +2,8 @@
 # id <- 1:200
 # 4 player games:
 # id <- c(940L, 1347L, 1349L, 1933L, 1936L, 1940L, 1970L, 1982L)
-id <- 5001:7288
-data_file <- here::here(file.path("data", "game_player_score.txt"))
+id <- 7289:7307
+data_file <- here::here(file.path("data", "game_player_score2.txt"))
 if(file.exists(data_file)) {
   cnames.p <- FALSE
   append.p <- TRUE
