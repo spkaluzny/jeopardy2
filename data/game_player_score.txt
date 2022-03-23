@@ -15,7 +15,7 @@
 5|4600|2004-09-10|"Ken Jennings game 43."|"Kollin"|"Min"|"An Attorney"|"Seattle, Washington"|1|2600|3|1|600|2600|1
 5|4600|2004-09-10|"Ken Jennings game 43."|"Ken"|"Jennings"|"Software Engineer"|"Salt Lake City, Utah"|30000|28600|34|3|13600|28600|30000
 6|4601|2004-09-13|"Ken Jennings game 44."|"Bruce"|"England"|"Biochemist"|"Hayward, California"|-4800|-1800|10|5|1800|-4800|-4800
-6|4601|2004-09-13|"Ken Jennings game 44."|"Dana"|"Dolan"|"Writer And Editor"|"Atlanta, Georgia"|3999|2000|4|2|2000|3999|3999
+6|4601|2004-09-13|"Ken Jennings game 44."|"Dana"|"Dolan"|"Writer And Editor"|"Atlanta, Georgia"|3999|2000|4|2|0|2000|3999
 6|4601|2004-09-13|"Ken Jennings game 44."|"Ken"|"Jennings"|"Software Engineer"|"Salt Lake City, Utah"|45000|32200|41|2|16600|38800|45000
 7|4602|2004-09-14|"Ken Jennings game 45."|"Robert"|"Quinn"|"Real Estate Manager And Actor"|"Hoboken, New Jersey"|2799|1400|6|2|200|1400|2799
 7|4602|2004-09-14|"Ken Jennings game 45."|"Kate"|"Duffy"|"Reporter"|"Lebanon, New Hampshire"|3500|4800|7|3|1800|3400|3500
@@ -1720,7 +1720,7 @@
 596|2829|1996-12-12|""|"Jeff"|"Punim"|"Physician"|"Long Beach, California"|2399|5900|13|3|-300|7100|2399
 597|2830|1996-12-13|""|"Jere"|"Souza"|"Homemaker"|"El Dorado Hills, California"|7100|6900|22|4|3900|7100|7100
 597|2830|1996-12-13|""|"Pat"|"Gonzales"|"Retail Manager"|"El Monte, California"|1|3300|20|5|3300|3300|1
-597|2830|1996-12-13|""|"Sandy"|"Siegel"|"Writer"|"Playa Del Rey, California"|1200|3200|9|2|2200|1200|1200
+597|2830|1996-12-13|""|"Sandy"|"Siegel"|"Writer"|"Playa Del Rey, California"|1200|3200|9|2|0|2200|1200
 598|4866|2005-11-07|"2005 College Championship quarterfinal game 1. From the RBC Center in Raleigh, North Carolina."|"Antonia"|"Wang"|"Sophomore At Purdue University"|"Carmel, Indiana"|11300|6800|11|2|2800|7200|11300
 598|4866|2005-11-07|"2005 College Championship quarterfinal game 1. From the RBC Center in Raleigh, North Carolina."|"Beth"|"Cimini"|"Junior At Boston University"|"East Longmeadow, Massachusetts"|28900|16800|27|3|7100|21700|28900
 598|4866|2005-11-07|"2005 College Championship quarterfinal game 1. From the RBC Center in Raleigh, North Carolina."|"Christopher"|"Chilton"|"Sophomore At The University Of North Carolina At Chapel Hill"|"Holly Springs, North Carolina"|1|3200|13|5|4000|3200|1
@@ -2614,7 +2614,7 @@
 901|4977|2006-04-11|""|"William"|"Lee"|"Software Engineer"|"South San Francisco, California"|6300|6000|11|3|2400|6000|6300
 903|3276|1998-11-30|"Andrew Maly game 1."|"Andrew"|"Maly"|"An Environmental Engineer"|"Bel Air, Maryland"|6100|8100|25|5|3700|6800|6100
 903|3276|1998-11-30|"Andrew Maly game 1."|"Dana"|"Ezell"|"Social Worker"|"Baton Rouge, Louisiana"|1199|900|9|4|1500|700|1199
-903|3276|1998-11-30|"Andrew Maly game 1."|"Deborah"|"Danzis"|"College Professor"|"High Point, North Carolina"|-600|-600|3|2|-600|-600|-600
+903|3276|1998-11-30|"Andrew Maly game 1."|"Deborah"|"Danzis"|"College Professor"|"High Point, North Carolina"|-600|-600|3|2|0|-600|-600
 904|4978|2006-04-12|""|"Tom"|"Ricketts"|"Chemical Engineer"|"Halifax, Massachusetts"|8399|16000|19|4|3600|14800|8399
 904|4978|2006-04-12|""|"Melissa"|"Ahart"|"Librarian Originally"|"Oswego, New York"|10200|11800|18|1|6600|10600|10200
 904|4978|2006-04-12|""|"Kathy"|"Lisiewicz"|"Project Coordinator"|"Los Angeles, California"|1|6600|13|3|2600|7000|1
@@ -7981,7 +7981,7 @@
 2726|2541|1995-09-25|"Linda Roberts game 1."|"Paul"|"Skocz"|"Management Analyst"|"Arnold, Maryland"|0|3600|9|1|800|2600|0
 2726|2541|1995-09-25|"Linda Roberts game 1."|"Linda"|"Roberts"|"Registered Nurse"|"Houston, Texas"|13201|14300|30|1|4900|15500|13201
 2726|2541|1995-09-25|"Linda Roberts game 1."|"Keith"|"Bush"|"Copy Editor"|"Long Beach, California"|5300|6100|18|1|3800|6600|5300
-2727|5541|2008-10-13|"\"Think!\" music remixed to de-emphasize \"leaky faucet\" percussion."|"Mary"|"Tuohy"|"Retired Teacher"|"Groton, Connecticut"|2800|2800|2|0|2800|2800|2800
+2727|5541|2008-10-13|"\"Think!\" music remixed to de-emphasize \"leaky faucet\" percussion."|"Mary"|"Tuohy"|"Retired Teacher"|"Groton, Connecticut"|2800|2800|2|0|0|2800|2800
 2727|5541|2008-10-13|"\"Think!\" music remixed to de-emphasize \"leaky faucet\" percussion."|"Todd"|"Covert"|"Bookkeeper"|"Valley Glen, California"|32401|16000|20|1|8800|17400|32401
 2727|5541|2008-10-13|"\"Think!\" music remixed to de-emphasize \"leaky faucet\" percussion."|"Luciano"|"D'orazio"|"Social Studies Teacher"|"Deer Park, New York"|0|20200|30|5|4200|16200|0
 2728|5542|2008-10-14|""|"Nate"|"Hudac"|"Sixth Grade Teacher"|"New Orleans, Louisiana"|23000|15000|23|4|4600|13000|23000
@@ -7996,7 +7996,7 @@
 2731|4593|2004-07-21|"Ken Jennings game 36."|"Art"|"Borgemenke"|"An Adjunct Professor"|"El Paso, Texas"|8800|4400|9|3|4000|4400|8800
 2731|4593|2004-07-21|"Ken Jennings game 36."|"Liese"|"Tamburrino"|"An International Sales Manager"|"Pahrump, Nevada"|0|6600|7|3|600|0|0
 2731|4593|2004-07-21|"Ken Jennings game 36."|"Ken"|"Jennings"|"Software Engineer"|"Salt Lake City, Utah"|30000|22600|40|5|14000|26800|30000
-2732|4594|2004-07-22|"Ken Jennings game 37."|"Denele"|"Hamada"|"Compensation Analyst"|"Honolulu, Hawaii"|1200|2000|3|1|2000|1200|1200
+2732|4594|2004-07-22|"Ken Jennings game 37."|"Denele"|"Hamada"|"Compensation Analyst"|"Honolulu, Hawaii"|1200|2000|3|1|0|2000|1200
 2732|4594|2004-07-22|"Ken Jennings game 37."|"Michael"|"Jaeger"|"Freelance Director"|"Los Angeles, California"|4001|5200|8|1|2000|5200|4001
 2732|4594|2004-07-22|"Ken Jennings game 37."|"Ken"|"Jennings"|"Software Engineer"|"Salt Lake City, Utah"|52000|30200|39|1|16000|42000|52000
 2733|5543|2008-10-15|""|"Meredith"|"Robbins"|"Library Media Specialist"|"New York, New York"|5700|16200|17|3|2500|15700|5700
@@ -8941,7 +8941,7 @@
 3051|306|1985-11-11|"1985 Tournament of Champions quarterfinal game 1."|"Ric"|"Moser"|"Printing Broker"|"The Woodlands, Texas"|3599|10200|23|3|3800|8200|3599
 3051|306|1985-11-11|"1985 Tournament of Champions quarterfinal game 1."|"Elise"|"Beraru"|"An Insurance Underwriter"|"Los Angeles, California"|0|6400|17|2|1000|6400|0
 3051|306|1985-11-11|"1985 Tournament of Champions quarterfinal game 1."|"John"|"Genova"|"Student And A Catholic Cantor"|"North Hollywood, California"|0|2100|7|2|600|1800|0
-3052|3787|2001-02-06|"2001 Celebrity Jeopardy! game 2. From the Las Vegas Hilton. (John Lauderdale: This used to be Elvis Presley's dressing room here at the Hilton; now it belongs to Alex Trebek. Alex, 30 seconds!) (Alex: [Dressed in an Elvis outfit] Thank you, John, thank you! Yeah!)"|"Charles"|"Barkley"|"Former Pro Basketball Player"|"Turner Network Television"|0|1800|4|1|1800|0|0
+3052|3787|2001-02-06|"2001 Celebrity Jeopardy! game 2. From the Las Vegas Hilton. (John Lauderdale: This used to be Elvis Presley's dressing room here at the Hilton; now it belongs to Alex Trebek. Alex, 30 seconds!) (Alex: [Dressed in an Elvis outfit] Thank you, John, thank you! Yeah!)"|"Charles"|"Barkley"|"Former Pro Basketball Player"|"Turner Network Television"|0|1800|4|1|0|1800|0
 3052|3787|2001-02-06|"2001 Celebrity Jeopardy! game 2. From the Las Vegas Hilton. (John Lauderdale: This used to be Elvis Presley's dressing room here at the Hilton; now it belongs to Alex Trebek. Alex, 30 seconds!) (Alex: [Dressed in an Elvis outfit] Thank you, John, thank you! Yeah!)"|"Martha"|"Stewart"|"Tv Personality"|"Martha Stewart Living"|3300|4300|15|4|1500|2300|3300
 3052|3787|2001-02-06|"2001 Celebrity Jeopardy! game 2. From the Las Vegas Hilton. (John Lauderdale: This used to be Elvis Presley's dressing room here at the Hilton; now it belongs to Alex Trebek. Alex, 30 seconds!) (Alex: [Dressed in an Elvis outfit] Thank you, John, thank you! Yeah!)"|"Jeff"|"Probst"|"Tv Personality"|"Rock & Roll Jeopardy! And Survivor"|2300|4100|16|3|1100|3500|2300
 3053|307|1985-11-12|"1985 Tournament of Champions quarterfinal game 2."|"Larry"|"Floyd"|"An Accounting Clerk Originally"|"Bridgton, Maine"|8600|6500|18|3|1300|6500|8600
@@ -12538,9 +12538,9 @@
 4278|6661|2013-07-29|"2013 Kids Week game 1."|"Erin"|"Wenokur"|"12-Year-Old Seventh Grader"|"Lafayette, California"|0|5000|12|3|4600|5000|0
 4278|6661|2013-07-29|"2013 Kids Week game 1."|"Jonathan"|"Shoemaker"|"An 11-Year-Old Sixth Grader"|"Austin, Texas"|9100|13000|18|2|7400|14200|9100
 4278|6661|2013-07-29|"2013 Kids Week game 1."|"Zoë"|"Assasie"|"An 11-Year-Old Fifth Grader"|"Urbana, Maryland"|6200|11800|17|3|4200|9600|6200
-4279|382|1986-02-25|"Missing J! Round and 14 clues of DJ! Round."|"Chub"|"Feeney"|"From"|NA|99|1000|5|3|1300|99|99
-4279|382|1986-02-25|"Missing J! Round and 14 clues of DJ! Round."|"Leslie"|"Johnson Kelsey"|"From"|NA|9999|3200|5|0|5000|9999|9999
-4279|382|1986-02-25|"Missing J! Round and 14 clues of DJ! Round."|"Joe"|"Pipp"|"An Engineering Graduate"|"Ann Arbor, Michigan"|800|5400|14|0|5400|800|800
+4279|382|1986-02-25|"Missing J! Round and 14 clues of DJ! Round."|"Chub"|"Feeney"|"From"|NA|99|1000|5|3|0|1300|99
+4279|382|1986-02-25|"Missing J! Round and 14 clues of DJ! Round."|"Leslie"|"Johnson Kelsey"|"From"|NA|9999|3200|5|0|0|5000|9999
+4279|382|1986-02-25|"Missing J! Round and 14 clues of DJ! Round."|"Joe"|"Pipp"|"An Engineering Graduate"|"Ann Arbor, Michigan"|800|5400|14|0|0|5400|800
 4280|6662|2013-07-30|"2013 Kids Week game 2."|"John!!!"|"Wilkins"|"An 11-Year-Old Sixth Grader"|"Chevy Chase, Maryland"|11600|16400|18|1|9400|16600|11600
 4280|6662|2013-07-30|"2013 Kids Week game 2."|"Sallie"|"Rawlston"|"10-Year-Old Fifth Grader"|"Soddy-Daisy, Tennessee"|2800|12000|15|1|2000|11800|2800
 4280|6662|2013-07-30|"2013 Kids Week game 2."|"Aarin"|"Martinez"|"12-Year-Old Seventh Grader"|"Torrance, California"|1600|7800|17|2|6600|7600|1600
@@ -14963,7 +14963,7 @@
 5099|7171|2015-11-16|"2015 Tournament of Champions semifinal game 1."|"John"|"Schultz"|"Computer Programmer"|"Ann Arbor, Michigan"|6000|6600|13|4|-600|5400|6000
 5099|7171|2015-11-16|"2015 Tournament of Champions semifinal game 1."|"Kerry"|"Greene"|"Volunteer Casa Guardian Ad Litem"|"Manchester, New Hampshire"|12800|10400|15|3|5200|7400|12800
 5100|7172|2015-11-17|"2015 Tournament of Champions semifinal game 2."|"Vaughn"|"Winchell"|"Graduate Student In Mathematics"|"Columbia, Maryland"|0|9600|16|3|2800|8000|0
-5100|7172|2015-11-17|"2015 Tournament of Champions semifinal game 2."|"Brennan"|"Bushee"|"Software Developer"|"Malden, Massachusetts"|5600|12000|9|0|11600|5600|5600
+5100|7172|2015-11-17|"2015 Tournament of Champions semifinal game 2."|"Brennan"|"Bushee"|"Software Developer"|"Malden, Massachusetts"|5600|12000|9|0|0|11600|5600
 5100|7172|2015-11-17|"2015 Tournament of Champions semifinal game 2."|"Alex"|"Jacob"|"Currency Trader"|"Chicago, Illinois"|28200|26400|32|1|11600|28200|28200
 5101|7173|2015-11-18|"2015 Tournament of Champions semifinal game 3."|"Catherine"|"Hardee"|"An Aspiring Teacher"|"Kinston, North Carolina"|6400|10400|14|1|6000|6400|6400
 5101|7173|2015-11-18|"2015 Tournament of Champions semifinal game 3."|"Andrew"|"Haringer"|"College Instructor"|"Squamish, British Columbia, Canada"|7999|11400|17|3|3200|10400|7999
@@ -17416,8 +17416,8 @@
 5932|7718|2018-03-14|""|"Peter"|"Karamitsos"|"Software Salesman"|"Elmhurst, Illinois"|27400|15400|18|3|1000|17200|27400
 5932|7718|2018-03-14|""|"Allison"|"Berke"|"Cybersecurity Research Director"|"Half Moon Bay, California"|100|8200|12|0|5400|8200|100
 5932|7718|2018-03-14|""|"Zach"|"Dark"|"An Investment Analyst"|"Hoover, Alabama"|17201|12600|21|2|6600|12600|17201
-5933|1940|1993-01-29|"Diane Siegel game 5. Missing player introductions, the Jeopardy! Round, and all but 7 clues of the Double Jeopardy! Round."|"Lewis"|"Zimet"|"From"|NA|5801|3800|4|0|4500|5801|5801
-5933|1940|1993-01-29|"Diane Siegel game 5. Missing player introductions, the Jeopardy! Round, and all but 7 clues of the Double Jeopardy! Round."|"Tilney"|"Wickersham"|"From"|NA|6000|3000|7|1|3000|6000|6000
+5933|1940|1993-01-29|"Diane Siegel game 5. Missing player introductions, the Jeopardy! Round, and all but 7 clues of the Double Jeopardy! Round."|"Lewis"|"Zimet"|"From"|NA|5801|3800|4|0|0|4500|5801
+5933|1940|1993-01-29|"Diane Siegel game 5. Missing player introductions, the Jeopardy! Round, and all but 7 clues of the Double Jeopardy! Round."|"Tilney"|"Wickersham"|"From"|NA|6000|3000|7|1|0|3000|6000
 5933|1940|1993-01-29|"Diane Siegel game 5. Missing player introductions, the Jeopardy! Round, and all but 7 clues of the Double Jeopardy! Round."|"Diane"|"Siegel"|"Homemaker"|"Northridge, California"|10300|5800|11|0|400|5800|10300
 5934|7722|2018-03-20|""|"John"|"Bizal"|"Retired High School English Teacher"|"Scottsdale, Arizona"|16399|19800|20|3|3400|22400|16399
 5934|7722|2018-03-20|""|"AJ"|"Freeman"|"Customer Solutions Advisor"|"Boise, Idaho"|1000|8000|13|2|4000|8000|1000
@@ -18344,7 +18344,7 @@
 6255|7963|2019-04-03|"Steven Grade game 6."|"Rose"|"Curtin"|"An Editor And Yarn Shop Clerk"|"Newport, Kentucky"|25599|12400|15|2|4800|12800|25599
 6255|7963|2019-04-03|"Steven Grade game 6."|"Steven"|"Grade"|"Sports Industry Consultant"|"Atlanta, Georgia"|1|9200|14|2|5600|5400|1
 6256|7964|2019-04-04|"James Holzhauer game 1."|"James"|"Holzhauer"|"Professional Sports Gambler"|"Las Vegas, Nevada"|43680|27800|31|1|13800|40412|43680
-6256|7964|2019-04-04|"James Holzhauer game 1."|"Anna"|"Hautzinger"|"Veterinarian"|"Chicago, Illinois"|3200|1600|1|1|1600|3200|3200
+6256|7964|2019-04-04|"James Holzhauer game 1."|"Anna"|"Hautzinger"|"Veterinarian"|"Chicago, Illinois"|3200|1600|1|1|0|1600|3200
 6256|7964|2019-04-04|"James Holzhauer game 1."|"Alex"|"Koral"|"Regulatory Research Counsel"|"Boulder, Colorado"|20000|17000|25|2|7000|18000|20000
 6257|7965|2019-04-05|"James Holzhauer game 2."|"Marshall"|"Shelburne"|"Computer Programmer"|"Los Angeles, California"|2445|4000|15|4|4400|4000|2445
 6257|7965|2019-04-05|"James Holzhauer game 2."|"Satish"|"Chandrasekhar"|"Medical Student"|"Jupiter, Florida"|12600|15000|18|1|6800|18800|12600
@@ -21409,3 +21409,9 @@
 7313|8601|2022-03-21|""|"Karen"|"Johnson"|"Member Acquisition Coordinator"|"Portland, Oregon"|7999|13400|15|1|1800|15400|7999
 7313|8601|2022-03-21|""|"Margaret"|"Chipowsky"|"An Attorney"|"Lawrenceville, New Jersey"|18800|9800|15|2|3800|9800|18800
 7313|8601|2022-03-21|""|"Finn"|"Corrigan"|"Student"|"Vista, California"|0|11200|20|5|1800|11400|0
+7314|8602|2022-03-22|""|"Caitlin"|"Gillooly"|"An E-Commerce Professional"|"Boston, Massachusetts"|0|15400|20|2|4600|15400|0
+7314|8602|2022-03-22|""|"Mihir"|"Nene"|"An Engineer"|"Rochester, New York"|24999|15000|16|1|4600|12500|24999
+7314|8602|2022-03-22|""|"Margaret"|"Chipowsky"|"An Attorney"|"Lawrenceville, New Jersey"|10300|17400|20|0|7200|20600|10300
+7315|8603|2022-03-23|""|"Nadège"|"Aoki"|"Marine Biology Graduate Student"|"Cambridge, Massachusetts"|2900|7000|13|5|3000|5900|2900
+7315|8603|2022-03-23|""|"Tim"|"Mccaigue"|"An App Developer"|"San Diego, California"|16800|18400|26|1|8800|18800|16800
+7315|8603|2022-03-23|""|"Mihir"|"Nene"|"An Engineer"|"Rochester, New York"|6400|6400|11|2|3600|6400|6400
