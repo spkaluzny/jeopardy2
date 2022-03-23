@@ -25,7 +25,7 @@ one_game <- function(id) {
 
 scores3 <- function(d) {
   nam <- unique(d$name)
-  r0 <- data.frame(round=1, name=nam, score=rep(0, 3))
+  r0 <- data.frame(round=rep(1:2, each=3), name=c(nam, nam), score=rep(0, 6))
   s3 <- d |> dplyr::select(round, name, score) |> rbind(r0) |>
     dplyr::group_by(name, round) |>
     dplyr::summarise(value = sum(score), .groups="drop")
