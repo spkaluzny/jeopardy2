@@ -24,7 +24,10 @@ one_game <- function(id) {
 }
 
 scores3 <- function(d) {
-  s3 <- d |> dplyr::group_by(name, round) |>
+  nam <- unique(d$name)
+  r0 <- data.frame(round=1, name=nam, score=rep(0, 3))
+  s3 <- d |> dplyr::select(round, name, score) |> rbind(r0) |>
+    dplyr::group_by(name, round) |>
     dplyr::summarise(value = sum(score), .groups="drop")
   z3 <- tapply(s3[["value"]], s3[["name"]], cumsum)
   z3 <- lapply(z3, function(y) {
