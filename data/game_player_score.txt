@@ -2087,7 +2087,7 @@
 723|2956|1997-06-09|"Wes Ulm game 4."|"John"|"Nauss"|"State Filings Analyst"|"Seattle, Washington"|3400|2400|10|3|1800|2400|3400
 723|2956|1997-06-09|"Wes Ulm game 4."|"Lisa"|"Mclendon"|"Graduate Student"|"Austin, Texas"|4900|6100|14|0|2100|6100|4900
 723|2956|1997-06-09|"Wes Ulm game 4."|"Wes"|"Ulm"|"Medical Student"|"Alexandria, Virginia"|16200|13700|31|0|3500|14400|16200
-724|1426|1990-11-12|"1990 Tournament of Champions semifinal game 1."|"Jamie"|"Weiss"|"High School Senior And Winner Of Last Year's Teen Tournament"|"Fairfax, Virginia"|1991|1400|8|1|1400|1991|1991
+724|1426|1990-11-12|"1990 Tournament of Champions semifinal game 1."|"Jamie"|"Weiss"|"High School Senior And Winner Of Last Year's Teen Tournament"|"Fairfax, Virginia"|1991|1400|8|1|1400|1400|1991
 724|1426|1990-11-12|"1990 Tournament of Champions semifinal game 1."|"Steve"|"Berman"|"Film Executive Originally"|"Toms River, New Jersey"|14201|10700|26|2|5400|14200|14201
 724|1426|1990-11-12|"1990 Tournament of Champions semifinal game 1."|"Eric"|"Terzuolo"|"Foreign Service Officer"|"Washington, D.C."|6800|7300|19|4|1700|3400|6800
 725|2958|1997-06-11|"Arthur Phillips game 2."|"Girish"|"Bhat"|"Conservationist"|"Madison, Wisconsin"|500|1800|8|6|1600|1000|500
@@ -5340,7 +5340,7 @@
 1833|3691|2000-09-25|"Andrew Garen game 4."|"Shawn"|"Freeman"|"Call Center Manager"|"Birmingham, Alabama"|6400|4900|14|0|2300|4900|6400
 1833|3691|2000-09-25|"Andrew Garen game 4."|"Andrew"|"Garen"|"Project Manager"|"Mamaroneck, New York"|9801|8500|18|5|700|6200|9801
 1834|3692|2000-09-26|"Andrew Garen game 5."|"Frank"|"Lloyd"|"An International Business School Executive"|"Scottsdale, Arizona"|6000|5100|16|3|1300|5500|6000
-1834|3692|2000-09-26|"Andrew Garen game 5."|"Penny"|"Bloedel"|"An Army Officer"|"Winfield, Kansas"|2500|1200|5|0|1500|2500|2500
+1834|3692|2000-09-26|"Andrew Garen game 5."|"Penny"|"Bloedel"|"An Army Officer"|"Winfield, Kansas"|2500|1200|5|0|1500|1500|2500
 1834|3692|2000-09-26|"Andrew Garen game 5."|"Andrew"|"Garen"|"Project Manager"|"Mamaroneck, New York"|14999|12200|29|0|4800|13000|14999
 1835|5224|2007-05-03|"2007 College Championship quarterfinal game 4. From the University of Southern California."|"Kaitlin"|"Welborn"|"Sophomore"|"The University Of Pennsylvania"|8400|4200|6|1|1000|4200|8400
 1835|5224|2007-05-03|"2007 College Championship quarterfinal game 4. From the University of Southern California."|"Will"|"Schultz"|"Freshman"|"The University Of North Carolina, Chapel Hill"|15000|15000|23|3|10200|11600|15000
@@ -9060,7 +9060,7 @@
 3091|4308|2003-04-30|"2003 Celebrity Jeopardy! game 3."|"Brad"|"Paisley"|"Country Music Singer"|"The Album Mud On The Tires"|12600|8600|13|2|3000|8600|12600
 3092|4310|2003-05-02|"2003 Celebrity Jeopardy! game 5."|"Joshua"|"Malina"|"An Actor"|"The West Wing"|24118|22000|33|4|8800|24100|24118
 3092|4310|2003-05-02|"2003 Celebrity Jeopardy! game 5."|"CCH"|"Pounder"|"An Actress"|"The Shield"|0|3800|10|6|1400|3800|0
-3092|4310|2003-05-02|"2003 Celebrity Jeopardy! game 5."|"Jeff"|"Probst"|"Television Personality"|"Survivor"|3600|1800|4|1|1800|3600|3600
+3092|4310|2003-05-02|"2003 Celebrity Jeopardy! game 5."|"Jeff"|"Probst"|"Television Personality"|"Survivor"|3600|1800|4|1|1800|1800|3600
 3093|5735|2009-07-10|""|"Kathleen"|"O'day"|"Home Decor Product Manager"|"Oakdale, Minnesota"|3998|3000|7|4|200|2000|3998
 3093|5735|2009-07-10|""|"Peter"|"Wiscombe"|"Computer Engineer"|"High Point, North Carolina"|16799|22400|30|4|5800|19200|16799
 3093|5735|2009-07-10|""|"Alyssa"|"Mcrae"|"Gift Card Production Designer"|"Philadelphia, Pennsylvania"|4001|10800|13|3|2400|10800|4001
@@ -11315,7 +11315,7 @@
 3856|6340|2012-03-23|""|"Dennis"|"Wright"|"Welder"|"Council Grove, Kansas"|25200|20600|26|5|10400|25200|25200
 3856|6340|2012-03-23|""|"Cathy"|"Guiles"|"Copy Editor Originally"|"Baltimore, Maryland"|6600|10200|18|5|2600|12600|6600
 3857|6341|2012-03-26|""|"Margie"|"Cohen"|"Litigator"|"Houston, Texas"|6199|15800|19|4|3800|12800|6199
-3857|6341|2012-03-26|""|"Mithun"|"Kamath"|"Law Student Originally"|"New Orleans, Louisiana"|1|3800|6|0|4000|1|1
+3857|6341|2012-03-26|""|"Mithun"|"Kamath"|"Law Student Originally"|"New Orleans, Louisiana"|1|3800|6|0|4000|4000|1
 3857|6341|2012-03-26|""|"Dennis"|"Wright"|"Welder"|"Council Grove, Kansas"|0|9200|19|2|6000|9200|0
 3858|6342|2012-03-27|""|"Chuck"|"Ettelson"|"Plastic Surgeon"|"ST. Louis, Missouri"|15800|17400|25|4|8000|18800|15800
 3858|6342|2012-03-27|""|"Beau"|"Henson"|"Test Prep Teacher And Actor Originally"|"MT. Carmel, Illinois"|16001|10800|17|3|4400|10800|16001
@@ -14737,7 +14737,7 @@
 5024|981|1988-12-05|""|"Kate"|"Lanes"|"U.S. Navy Officer Originally"|"Tucson, Arizona"|100|4400|9|0|1800|4400|100
 5024|981|1988-12-05|""|"Mark"|"Jennings"|"Minister"|"Ashland, Kansas"|0|6600|14|2|600|8100|0
 5024|981|1988-12-05|""|"Jack"|"Lechner"|"Freelance Writer Originally"|"Arlington, Virginia"|8599|12100|32|3|4200|12400|8599
-5025|782|1988-01-19|""|"Jenny"|"Church"|"Supervisor Originally"|"Pensacola, Florida"|100|300|3|2|300|100|100
+5025|782|1988-01-19|""|"Jenny"|"Church"|"Supervisor Originally"|"Pensacola, Florida"|100|300|3|2|300|300|100
 5025|782|1988-01-19|""|"Paul"|"Tidwell"|"Tutor"|"Mission Hills, California"|10600|6100|19|5|900|5300|10600
 5025|782|1988-01-19|""|"Jonathan"|"Santore"|"Composer And Graduate Student Originally"|"Greeneville, Tennessee"|7799|9200|23|2|2400|9200|7799
 5026|820|1988-03-11|"Ron Trigueiro game 1."|"Jackie"|"Trahan"|"Medical Technologist"|"Lake Charles, Louisiana"|0|5000|12|1|400|6200|0
@@ -15508,7 +15508,7 @@
 5285|886|1988-06-13|"Stephen Lebowitz game 2."|"John"|"Chivers"|"Systems Analyst"|"Fremont, California"|1|5600|19|1|4300|5700|1
 5285|886|1988-06-13|"Stephen Lebowitz game 2."|"Tom"|"Straczynski"|"Teacher"|"Bayside, New York"|2800|5800|15|1|800|7200|2800
 5285|886|1988-06-13|"Stephen Lebowitz game 2."|"Stephen"|"Lebowitz"|"Physician"|"Los Angeles, California"|15900|6800|16|0|2400|8900|15900
-5286|7302|2016-05-17|"2016 Power Players Week game 2. From DAR Constitution Hall in Washington, D.C."|"Michael"|"Steele"|"Political Analyst And Host"|"Msnbc And Steele & Ungar"|1000|1600|3|0|1600|1000|1000
+5286|7302|2016-05-17|"2016 Power Players Week game 2. From DAR Constitution Hall in Washington, D.C."|"Michael"|"Steele"|"Political Analyst And Host"|"Msnbc And Steele & Ungar"|1000|1600|3|0|1600|1600|1000
 5286|7302|2016-05-17|"2016 Power Players Week game 2. From DAR Constitution Hall in Washington, D.C."|"Lara"|"Logan"|"Correspondent"|"60 Minutes On Cbs"|9800|6800|9|3|1200|5800|9800
 5286|7302|2016-05-17|"2016 Power Players Week game 2. From DAR Constitution Hall in Washington, D.C."|"Anderson"|"Cooper"|"Host"|"Ac360°"|7998|6000|12|4|2600|4000|7998
 5287|7303|2016-05-18|"2016 Power Players Week game 3. From DAR Constitution Hall in Washington, D.C."|"Jonathan"|"Capehart"|"Journalist"|"The Washington Post"|14800|8400|15|5|1200|8800|14800
@@ -15676,7 +15676,7 @@
 5343|7337|2016-07-05|""|"Julie"|"Vazquez-Souza"|"An Operations Administrator"|"San Diego, California"|0|6600|8|2|1400|6600|0
 5343|7337|2016-07-05|""|"TJ"|"Bateman"|"Software Q.A. Lead"|"Charlottesville, Virginia"|5199|14600|21|2|3400|18800|5199
 5343|7337|2016-07-05|""|"Liz"|"Hedreen"|"Stay-At-Home Mom"|"Kirkland, Washington"|0|15600|17|2|3000|16200|0
-5344|1441|1990-12-03|"Bruce Ikawa game 2."|"Kathy"|"Brice"|"Principal Of A Consulting Engineering Firm Originally"|"Winnipeg, Manitoba"|0|800|3|0|800|0|0
+5344|1441|1990-12-03|"Bruce Ikawa game 2."|"Kathy"|"Brice"|"Principal Of A Consulting Engineering Firm Originally"|"Winnipeg, Manitoba"|0|800|3|0|800|800|0
 5344|1441|1990-12-03|"Bruce Ikawa game 2."|"Dave"|"Bergmann"|"An Attorney"|"Columbus, Ohio"|1700|5500|16|2|2200|5600|1700
 5344|1441|1990-12-03|"Bruce Ikawa game 2."|"Bruce"|"Ikawa"|"College Professor Originally"|"Indianapolis, Indiana"|13199|13400|33|3|3800|12200|13199
 5345|7338|2016-07-06|""|"Emily"|"Hillard"|"Systems Coordinator"|"Evansville, Indiana"|8000|4000|6|0|2000|4000|8000
@@ -15800,7 +15800,7 @@
 5385|670|1987-07-03|"Eric Berman game 2."|"Elaine"|"Brewer"|"Music Publishing Executive Originally"|"Indianapolis, Indiana"|3200|2600|12|3|1200|1600|3200
 5385|670|1987-07-03|"Eric Berman game 2."|"Eric"|"Berman"|"Journalist"|"Crown Point, Indiana"|11900|11100|26|0|5400|11200|11900
 5386|2573|1995-11-08|"1995 Celebrity Jeopardy! game 3."|"Charles"|"Shaughnessy"|"An Actor"|"The Nanny"|15900|9400|21|1|1700|10900|15900
-5386|2573|1995-11-08|"1995 Celebrity Jeopardy! game 3."|"Shawntel"|"Smith"|"Miss America"|"Muldrow, Oklahoma"|250|-500|2|2|-500|250|250
+5386|2573|1995-11-08|"1995 Celebrity Jeopardy! game 3."|"Shawntel"|"Smith"|"Miss America"|"Muldrow, Oklahoma"|250|-500|2|2|-500|-500|250
 5386|2573|1995-11-08|"1995 Celebrity Jeopardy! game 3."|"Noah"|"Wyle"|"An Actor"|"Er"|10100|7600|21|3|2200|7600|10100
 5387|712|1987-10-13|"Richard Perez-Pena game 5."|"Gerry"|"Cook"|"Probation Officer Originally"|"Queens, New York"|4000|3000|14|4|2800|3000|4000
 5387|712|1987-10-13|"Richard Perez-Pena game 5."|"Chloë"|"Ross"|"Food And Restaurant Writer"|"Los Angeles, California"|0|3900|12|4|500|3900|0
@@ -17761,8 +17761,8 @@
 6049|7803|2018-07-11|""|"Stel"|"Plakas"|"Project Manager"|"Flushing, New York"|22400|9000|16|3|1000|11200|22400
 6049|7803|2018-07-11|""|"George"|"Holcomb"|"Writer And Musician"|"Harrison, Arkansas"|2999|12200|14|1|6600|12200|2999
 6049|7803|2018-07-11|""|"Wes"|"Hazard"|"Standup Comic And Storyteller"|"Stoughton, Massachusetts"|24401|20000|22|0|7800|21400|24401
-6050|1335|1990-05-25|"Richard Neale game 4. Missing introductions, Jeopardy! Round, and Double Jeopardy! Round."|"Paul"|NA|"From"|NA|200|1400|4|0|1400|200|200
-6050|1335|1990-05-25|"Richard Neale game 4. Missing introductions, Jeopardy! Round, and Double Jeopardy! Round."|"Fred"|NA|"From"|NA|5600|4300|14|0|4300|5600|5600
+6050|1335|1990-05-25|"Richard Neale game 4. Missing introductions, Jeopardy! Round, and Double Jeopardy! Round."|"Paul"|NA|"From"|NA|200|1400|4|0|1400|1400|200
+6050|1335|1990-05-25|"Richard Neale game 4. Missing introductions, Jeopardy! Round, and Double Jeopardy! Round."|"Fred"|NA|"From"|NA|5600|4300|14|0|4300|4300|5600
 6050|1335|1990-05-25|"Richard Neale game 4. Missing introductions, Jeopardy! Round, and Double Jeopardy! Round."|"Richard"|"Neale"|"Taxpayer Service Representative"|"Concord, California"|20000|19300|39|0|5600|21600|20000
 6051|1617|1991-09-17|""|"Chuck"|"Lane"|"Magazine Writer"|"New York City, New York"|2799|4500|10|3|1100|4500|2799
 6051|1617|1991-09-17|""|"Maureen"|"Fernbacher"|"School Librarian"|"Allentown, Pennsylvania"|6199|2200|8|5|200|3100|6199
@@ -17981,7 +17981,7 @@
 6129|7845|2018-10-19|"Alan Dunn game 6."|"Erik"|"Agard"|"Puzzlemaker"|"Gaithersburg, Maryland"|25201|11800|22|4|4600|14600|25201
 6129|7845|2018-10-19|"Alan Dunn game 6."|"Alan"|"Dunn"|"Software Development Manager"|"Johns Creek, Georgia"|25200|12600|17|1|4600|12600|25200
 6130|7846|2018-10-22|""|"Joanna"|"Rom"|"Docent"|"Washington, D.C."|3666|1600|12|4|6400|3600|3666
-6130|7846|2018-10-22|""|"Mike"|"Jenkins"|"An Environmental Consultant"|"Ewing, New Jersey"|100|1200|5|1|1200|100|100
+6130|7846|2018-10-22|""|"Mike"|"Jenkins"|"An Environmental Consultant"|"Ewing, New Jersey"|100|1200|5|1|1200|1200|100
 6130|7846|2018-10-22|""|"Erik"|"Agard"|"Puzzlemaker"|"Gaithersburg, Maryland"|14800|20400|25|2|8400|15800|14800
 6131|7847|2018-10-23|""|"Patrick"|"Healy"|"Social Studies Teacher"|"Bronxville, New York"|8500|5000|13|5|2600|5000|8500
 6131|7847|2018-10-23|""|"Traci"|"Clark"|"Pharmacist"|"Pembroke Pines, Florida"|26800|14000|17|3|1400|13400|26800
@@ -20605,12 +20605,12 @@
 7040|8417|2021-06-08|"Champion's winnings & consolation amounts matched to National Alliance on Mental Illness."|"Tim"|"Lopez"|"Storytelling Coach Originally"|"Los Angeles, California"|14400|13200|21|2|5200|17200|14400
 7040|8417|2021-06-08|"Champion's winnings & consolation amounts matched to National Alliance on Mental Illness."|"Molly"|"Feibel"|"Historic Interpreter"|"Staatsburg, New York"|2000|9000|12|2|1000|9000|2000
 7040|8417|2021-06-08|"Champion's winnings & consolation amounts matched to National Alliance on Mental Illness."|"Verlinda"|"Johnson Henning"|"Human Resources Consultant"|"Memphis, Tennessee"|9000|5000|14|3|3900|4500|9000
-7041|8418|2021-06-09|"Champion's winnings & consolation amounts matched to National Alliance on Mental Illness."|"Mara"|"Davis"|"Conference & Events Manager"|"Chicago, Illinois"|27600|16400|20|1|4800|13800|27600
+7041|8418|2021-06-09|"Champion's winnings & consolation amounts matched to National Alliance on Mental Illness."|"Mara"|"Davis"|"Conference And Events Manager"|"Chicago, Illinois"|27600|16400|20|1|4800|13800|27600
 7041|8418|2021-06-09|"Champion's winnings & consolation amounts matched to National Alliance on Mental Illness."|"Shannon"|"Debus-Horn"|"An Attorney Originally"|"Port Charlotte, Florida"|2799|15400|18|2|7000|15200|2799
 7041|8418|2021-06-09|"Champion's winnings & consolation amounts matched to National Alliance on Mental Illness."|"Tim"|"Lopez"|"Storytelling Coach Originally"|"Los Angeles, California"|5200|7600|12|2|4400|7600|5200
 7042|8419|2021-06-10|"Champion's winnings & consolation amounts matched to National Alliance on Mental Illness."|"Becky"|"Parks"|"Healthcare Researcher"|"Washington, D.C."|0|1600|11|5|5800|1400|0
 7042|8419|2021-06-10|"Champion's winnings & consolation amounts matched to National Alliance on Mental Illness."|"Ankit"|"Gupta"|"Product Manager"|"Somerville, Massachusetts"|13600|8600|12|2|1800|7600|13600
-7042|8419|2021-06-10|"Champion's winnings & consolation amounts matched to National Alliance on Mental Illness."|"Mara"|"Davis"|"Conference & Events Manager"|"Chicago, Illinois"|12399|13400|21|5|4200|13800|12399
+7042|8419|2021-06-10|"Champion's winnings & consolation amounts matched to National Alliance on Mental Illness."|"Mara"|"Davis"|"Conference And Events Manager"|"Chicago, Illinois"|12399|13400|21|5|4200|13800|12399
 7043|8420|2021-06-11|"Last game with Mayim Bialik as guest host. Champion's winnings & consolation amounts matched to National Alliance on Mental Illness."|"Katie"|"Sekelsky"|"Graphic Designer"|"Kent, Ohio"|7999|11200|21|5|4000|11200|7999
 7043|8420|2021-06-11|"Last game with Mayim Bialik as guest host. Champion's winnings & consolation amounts matched to National Alliance on Mental Illness."|"Mike"|"Goldstein"|"Copywriter Originally"|"Downingtown, Pennsylvania"|2800|15400|20|4|7000|12800|2800
 7043|8420|2021-06-11|"Last game with Mayim Bialik as guest host. Champion's winnings & consolation amounts matched to National Alliance on Mental Illness."|"Ankit"|"Gupta"|"Product Manager"|"Somerville, Massachusetts"|1800|6800|11|3|2800|1800|1800
@@ -20702,7 +20702,7 @@
 7072|165|1985-04-26|""|"Joan"|"Kantor"|"Controller Originally"|"Brooklyn, New York"|-5100|-4100|4|13|-500|-5100|-5100
 7072|165|1985-04-26|""|"Doug"|"Miller"|"An Assignment Editor"|"Houston, Texas"|100|2100|15|10|1100|2100|100
 7073|8436|2021-07-05|"Courtney Shah game 6. Champion's winnings & consolation amounts matched to Odyssey Atlanta."|"Rebecca"|"Gould"|"An Esl Paraeducator"|"Columbia, Maryland"|2600|8800|14|0|5200|8800|2600
-7073|8436|2021-07-05|"Courtney Shah game 6. Champion's winnings & consolation amounts matched to Odyssey Atlanta."|"Mark"|"Lucas"|"Corporate & Career Strategist"|"Redondo Beach, California"|9602|13400|21|4|6200|7200|9602
+7073|8436|2021-07-05|"Courtney Shah game 6. Champion's winnings & consolation amounts matched to Odyssey Atlanta."|"Mark"|"Lucas"|"Corporate And Career Strategist"|"Redondo Beach, California"|9602|13400|21|4|6200|7200|9602
 7073|8436|2021-07-05|"Courtney Shah game 6. Champion's winnings & consolation amounts matched to Odyssey Atlanta."|"Courtney"|"Shah"|"Community College Instructor"|"Portland, Oregon"|17700|8000|13|2|4000|9600|17700
 7074|8437|2021-07-06|"Courtney Shah game 7. Champion's winnings & consolation amounts matched to Odyssey Atlanta."|"Laura"|"Hatcher"|"Communications Consultant"|"Myrtle Beach, South Carolina"|800|5800|10|3|1800|800|800
 7074|8437|2021-07-06|"Courtney Shah game 7. Champion's winnings & consolation amounts matched to Odyssey Atlanta."|"Alex"|"Stubblefield"|"PH.D. Candidate In Economics"|"Montgomery, Texas"|3599|7600|15|4|2600|2600|3599
@@ -21111,15 +21111,15 @@
 7209|8528|2021-12-08|"2021 Professors Tournament quarterfinal game 3."|"Sam"|"Buttrey"|"An Associate Professor Of Operations Research"|"Naval Postgraduate School In Monterey, California"|22400|22400|29|0|8000|22400|22400
 7210|8529|2021-12-09|"2021 Professors Tournament quarterfinal game 4."|"Julia"|"Williams"|"An English Professor"|"Rose-Hulman Institute Of Technology In Terre Haute, Indiana"|3800|5800|10|2|1800|5800|3800
 7210|8529|2021-12-09|"2021 Professors Tournament quarterfinal game 4."|"Ed"|"Hashima"|"History Professor"|"American River College In Sacramento, California"|32100|27000|30|2|8200|27400|32100
-7210|8529|2021-12-09|"2021 Professors Tournament quarterfinal game 4."|"Ramón"|"Guerra"|"An Associate Professor Of English, American Literature & Latino Studies"|"University Of Nebraska At Omaha"|0|1400|10|3|3800|1400|0
+7210|8529|2021-12-09|"2021 Professors Tournament quarterfinal game 4."|"Ramón"|"Guerra"|"An Associate Professor Of English, American Literature, And Latino Studies"|"University Of Nebraska At Omaha"|0|1400|10|3|3800|1400|0
 7211|8530|2021-12-10|"2021 Professors Tournament quarterfinal game 5."|"Deborah"|"Steinberger"|"An Associate Professor Of French Literature"|"University Of Delaware In Newark"|9800|13000|18|1|6200|14800|9800
 7211|8530|2021-12-10|"2021 Professors Tournament quarterfinal game 5."|"Alisa"|"Hove"|"Botany Professor"|"Warren Wilson College In Asheville, North Carolina"|20000|15000|15|0|3000|16400|20000
-7211|8530|2021-12-10|"2021 Professors Tournament quarterfinal game 5."|"J.P."|"Allen"|"Professor Of Business & Innovation"|"University Of San Francisco"|14799|17400|22|3|4200|17400|14799
+7211|8530|2021-12-10|"2021 Professors Tournament quarterfinal game 5."|"J.P."|"Allen"|"Professor Of Business And Innovation"|"University Of San Francisco"|14799|17400|22|3|4200|17400|14799
 7212|354|1986-01-16|""|"Linda"|"Shrum"|"Mother"|"Las Vegas, Nevada"|8600|5000|16|4|3100|4600|8600
 7212|354|1986-01-16|""|"Joe"|"Escarce"|"Physician Originally"|"Miami, Florida"|7400|5100|13|2|1700|3700|7400
 7212|354|1986-01-16|""|"Bill"|"Fleming"|"Police Sergeant"|"Mission Viejo, California"|8600|4300|16|1|1300|4300|8600
 7213|8531|2021-12-13|"2021 Professors Tournament semifinal game 1."|"Katie"|"Reed"|"An Associate Professor Of Musicology"|"Cal State Fullerton"|0|9000|13|1|4600|9000|0
-7213|8531|2021-12-13|"2021 Professors Tournament semifinal game 1."|"J.P."|"Allen"|"Professor Of Business & Innovation"|"University Of San Francisco"|0|15800|20|1|6200|13400|0
+7213|8531|2021-12-13|"2021 Professors Tournament semifinal game 1."|"J.P."|"Allen"|"Professor Of Business And Innovation"|"University Of San Francisco"|0|15800|20|1|6200|13400|0
 7213|8531|2021-12-13|"2021 Professors Tournament semifinal game 1."|"Sam"|"Buttrey"|"An Associate Professor Of Operations Research"|"Naval Postgraduate School In Monterey, California"|26401|19000|21|0|6600|19000|26401
 7214|8532|2021-12-14|"2021 Professors Tournament semifinal game 2."|"Hester"|"Blum"|"An English Professor"|"Penn State University In University Park, Pennsylvania"|3600|8200|15|6|1000|4800|3600
 7214|8532|2021-12-14|"2021 Professors Tournament semifinal game 2."|"Marti"|"Canipe"|"An Elementary Science Education Professor"|"Northern Arizona University In Flagstaff, Arizona"|0|2200|11|3|1800|2200|0
@@ -21355,7 +21355,7 @@
 7293|17|2022-02-22|"2022 National College Championship final game 1."|"Raymond"|"Goslow"|"Senior At Kennesaw State University In Kennesaw, Georgia"|NA|13200|6600|14|3|3400|6600|13200
 7293|17|2022-02-22|"2022 National College Championship final game 1."|"Jaskaran"|"Singh"|"Senior At The University Of Texas At Austin In Austin, Texas"|NA|32400|14200|20|6|8000|30400|32400
 7293|17|2022-02-22|"2022 National College Championship final game 1."|"Liz"|"Feltner"|"Senior At Northeastern University In Boston, Massachusetts"|NA|5800|9800|15|1|2200|9800|5800
-7296|8584|2022-02-24|""|"Anne"|"Large"|"Bar & Restaurant Owner"|"Washington, D.C."|400|2400|10|3|3200|1200|400
+7296|8584|2022-02-24|""|"Anne"|"Large"|"Bar And Restaurant Owner"|"Washington, D.C."|400|2400|10|3|3200|1200|400
 7296|8584|2022-02-24|""|"Lucian"|"Wang"|"Law Clerk"|"New York, New York"|5200|8600|9|4|1400|4600|5200
 7296|8584|2022-02-24|""|"Christine"|"Whelchel"|"Piano Teacher And Church Organist"|"Spring Hill, Tennessee"|10600|15600|21|2|6800|12600|10600
 7297|8585|2022-02-25|""|"Theresa"|"Donohoe"|"An Inventory Planning Analyst"|"Waltham, Massachusetts"|14799|7400|9|2|600|7400|14799
@@ -21398,11 +21398,11 @@
 7309|8597|2022-03-15|""|"Ariel"|"San Jose"|"Digital Marketing Manager"|"South San Francisco, California"|1|200|7|6|1000|200|1
 7309|8597|2022-03-15|""|"Amy"|"Bekkerman"|"An Academic Copy Editor"|"Durham, New Hampshire"|38000|20000|26|1|6000|28000|38000
 7310|8598|2022-03-16|""|"Evan"|"Freeman"|"Veterinarian"|"Georgetown, Ontario, Canada"|8601|10200|15|4|4600|4800|8601
-7310|8598|2022-03-16|""|"Katie"|"Hargrove"|"Personal Assistant & Writer"|"Redondo Beach, California"|17201|14600|18|0|5800|14600|17201
+7310|8598|2022-03-16|""|"Katie"|"Hargrove"|"Personal Assistant And Writer"|"Redondo Beach, California"|17201|14600|18|0|5800|14600|17201
 7310|8598|2022-03-16|""|"Amy"|"Bekkerman"|"An Academic Copy Editor"|"Durham, New Hampshire"|2599|8800|18|6|4200|8600|2599
 7311|8599|2022-03-17|""|"Joel"|"Levinson"|"Head Of Content"|"Yellow Springs, Ohio"|2400|2400|6|3|2000|2400|2400
 7311|8599|2022-03-17|""|"Finn"|"Corrigan"|"Student"|"Vista, California"|19601|14400|19|6|4000|10800|19601
-7311|8599|2022-03-17|""|"Katie"|"Hargrove"|"Personal Assistant & Writer"|"Redondo Beach, California"|14799|9400|14|3|3400|9800|14799
+7311|8599|2022-03-17|""|"Katie"|"Hargrove"|"Personal Assistant And Writer"|"Redondo Beach, California"|14799|9400|14|3|3400|9800|14799
 7312|8600|2022-03-18|""|"Michael"|"Qin"|"An Attorney"|"Atlanta, Georgia"|10801|11400|19|4|4400|8600|10801
 7312|8600|2022-03-18|""|"Debra"|"Burgess"|"An Adjunct Assistant Professor Of History"|"Cincinnati, Ohio"|14500|10000|15|3|2800|10000|14500
 7312|8600|2022-03-18|""|"Finn"|"Corrigan"|"Student"|"Vista, California"|20001|10000|15|4|4000|10800|20001

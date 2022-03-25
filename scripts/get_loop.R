@@ -1,8 +1,5 @@
 #!/usr/bin/env /usr/local/bin/Rscript
-# id <- 1:200
-# 4 player games:
-# id <- c(940L, 1347L, 1349L, 1933L, 1936L, 1940L, 1970L, 1982L)
-id <- 6001:7313
+id <- 1:7315
 data_file <- here::here(file.path("data", "game_player_score.txt"))
 if(file.exists(data_file)) {
   cnames.p <- FALSE
