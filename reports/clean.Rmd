@@ -128,13 +128,13 @@ from2 <- fixfrom(from2, "Trinidad And Tobago And Now In New York",
 from2 <- fixfrom(from2, "Sandy Mannix", NA)
 ```
 
-Now add the revised `last2`, `from2` and `occupation2`
-to the original data.frame.
+Now use the revised `last2`, `from2` and `occupation2`
+to replace `last`, `from` and `occupation` (resp.) in the original data.frame.
 
 ```{r update_data.frame}
-d[["last2"]] <- last2
-d[["from2"]] <- from2
-d[["occupation2"]] <- occupation2
+d[["last"]] <- last2
+d[["from"]] <- from2
+d[["occupation"]] <- occupation2
 ```
 ## Non-Regular Jeopardy Games
 
@@ -227,10 +227,28 @@ function (x)
     (r == 3) | (r == 2.5) | (r == 4)
 }
 d <- d %>%
-  group_by(show) %>%
+  group_by(game) %>%
   mutate(iswinner = isWinner(final)) %>%
   ungroup()
 ```
+
+Two games (174 and 5167) resulted in no winner,r
+all players had 0 for their final score.
+Set `iswinner` to `FALSE` for all players in these games.
+
+```{r no_winner}
+d[d$game == 174 | d$game == 5167, "iswinner"]
+```
+```{r}
+d[d$game == 174 | d$game == 5167, "iswinner"] <- FALSE
+```
+
+Game 1776 had a three-way nonzero tie and all players came back as
+co-champions.
+There are 49 games with a two-way tie after final Jeopardy.
+The last tied game was on 2014-10-30.
+After that, games that ended in a tie have a single playoff question
+to determine a single champion.
 
 After November 23, 2001 the game doubled the dollar amounts for each answer.
 A `gamemaxvalue` variable was added to distinguish games before and after the change:
@@ -253,19 +271,5 @@ d[["is5limit"]] <- d[["date"]] < as.Date("2003-09-08")
 ## Save Clean Data
 Save R object of the clean regular games data set.
 ```{r save_clean_regular}
-saveRDS(d, here::here("data/reg_player_score.rds"))
-```
-
-## Missing Values
-
-How many missing values in each variable.
-
-```{r missing}
-sapply(d, function(x) sum(is.na(x)))
-```
-
-## Data Verification
-
-```{r range_of_date}
-range(d$date)
+saveRDS(d, here::here("data/reg_game_player_score.rds"))
 ```
