@@ -2,7 +2,7 @@ one_game <- function(id) {
   # id: character "#n" => show number (starting Sept 1984)
   #     integer n => JArchive game number, 1 is Ken Jennings 2004-09-06 game
   z <- suppressWarnings(try(
-     whatr::whatr_data(id), silent=TRUE))
+     whatr::whatr_data2(id), silent=TRUE))
   if(class(z) == "try-error") {
     cat(id, "\n", file="whatr_problem.txt", append=TRUE)
     return(NULL)
@@ -25,8 +25,10 @@ one_game <- function(id) {
 
 scores3 <- function(d) {
   nam <- unique(d$name)
-  r0 <- data.frame(round=rep(1:2, each=3), name=c(nam, nam), score=rep(0, 6))
-  s3 <- d |> dplyr::select(round, name, score) |> rbind(r0) |>
+  r0 <- data.frame(round=rep(1:2, each=3), name=c(nam, nam),
+    score=rep(0, 6), double=rep(TRUE, 6))
+  d <- d |> dplyr::select(round, name, score, double) |> rbind(r0)
+  s3 <- d |>
     dplyr::group_by(name, round) |>
     dplyr::summarise(value = sum(score), .groups="drop")
   z3 <- tapply(s3[["value"]], s3[["name"]], cumsum)
@@ -38,5 +40,12 @@ scores3 <- function(d) {
    })
   d3 <- as.data.frame(do.call(rbind, z3))
   names(d3) <- c("round1", "round2", "round3")
-  cbind(name=row.names(d3), d3)
+  dd <- d[d$double, ]
+  zdd <- tapply(dd[["score"]], dd[["name"]],
+    function(x) c(ddwrong = sum(x < 0), ddright = sum(x > 0)))
+  ddd <- as.data.frame(do.call(rbind, zdd))
+  if(!all(row.names(d3) == row.names(ddd))) {
+    cat(id, "row.names do not match\n", file="bad.row.names.txt", append=TRUE)
+  }
+  cbind(name=row.names(d3), d3, ddd)
 }
