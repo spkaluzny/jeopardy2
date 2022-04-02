@@ -1,3 +1,6 @@
+## 2022-03-30 J! Archive Change?
+whatr_data started failing, 2022-03-30
+
 ## Column from problem
 
 National College Championship games have NA for from.
