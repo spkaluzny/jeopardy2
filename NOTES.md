@@ -1,5 +1,13 @@
+## 2022-04-12
+Game 4279 is missing round1 values, some of round2
+right and wrong values will be wrong
+What to do?
+
 ## 2022-03-30 J! Archive Change?
 whatr_data started failing, 2022-03-30
+
+Appears to be a problem with whatr:::whatr_board,
+which I do not use but it is called by whatr_data which I do use.
 
 ## Column from problem
 
