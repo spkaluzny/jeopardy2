@@ -212,20 +212,6 @@ d[["state"]] <- state
 d <- select(d, -from)
 ```
 
-## Player Id
-To facilitate analysis of on player basis,
-no matter how many games they played,
-we will create a play id by pasting together the
-`first`, `last`, `occupation`, `city` and `state` variables.
-
-```{r playerid}
-d[["playerid"]] <- with(d,
-  paste(first, last, occupation, city, state, sep="."))
-```
-
-Analysis of `playerid` indicated that it uniquely identified players
-e.g. show numbers and dates were grouped together.
-
 ## Non-Regular Jeopardy Games
 
 Over the years Jeopardy has had a number of special games.
@@ -316,6 +302,31 @@ d <- d[-indx_not_regular,]
 ```
 
 ## Additional Variables
+
+### Player Id
+To facilitate analysis of on player basis,
+no matter how many games they played,
+we will create a play id by pasting together the
+`first`, `last`, `occupation`, `city` and `state` variables.
+
+```{r playerid}
+d[["playerid"]] <- with(d,
+  paste(first, last, occupation, city, state, sep="."))
+```
+
+Analysis of `playerid` indicated that it uniquely identified players
+e.g. show numbers and dates were grouped together.
+
+Using the `playerid` we can create the number of regular games played
+for each player (`ngames`).
+
+```{r ngames}
+d <- d |> group_by(playerid) |>
+  mutate(ngame = n()) |>
+  ungroup()
+```
+  
+### iswinner
 
 Add a logical variable, `iswinner`, to denote the winner of game.
 ```{r winner}
