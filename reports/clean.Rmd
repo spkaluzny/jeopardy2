@@ -322,7 +322,7 @@ for each player (`ngames`).
 
 ```{r ngames}
 d <- d |> group_by(playerid) |>
-  mutate(ngame = n()) |>
+  mutate(ngames = n()) |>
   ungroup()
 ```
   
