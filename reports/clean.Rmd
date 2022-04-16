@@ -132,6 +132,8 @@ from2 <- fixfrom(from2, "Manhattan, New York", "New York, New York")
 from2 <- fixfrom(from2, "Queens, New York", "New York, New York")
 from2 <- fixfrom(from2, "Bronx, New York", "New York, New York")
 from2 <- fixfrom(from2, "Staten Island, New York", "New York, New York")
+from2 <- fixfrom(from2, "Downers Grove, Il", "Downers Grove, Illinois")
+from2 <- fixfrom(from2, "Saint-Laurent, Montreal", "Montreal, Canada")
 from2 <- fixfrom(from2, "West Hartford", "West Hartford, Connecticut")
 from2 <- fixfrom(from2, "Lynn Massachusetts", "Lynn, Massachusetts")
 from2 <- fixfrom(from2, "San Francisco", "San Francisco, California")
@@ -140,11 +142,18 @@ from2 <- fixfrom(from2, "Kansas City", "Kansas City, Missouri")
 from2 <- fixfrom(from2, "New York State", "New York")
 from2 <- fixfrom(from2, "Carmel Valley", "Carmel Valley, California")
 from2 <- fixfrom(from2, "Tampa", "Tampa, Florida")
+from2 <- fixfrom(from2, "St. Louis", "St. Louis, Missouri")
+from2 <- fixfrom(from2, "ST. Louis", "St. Louis, Missouri")
 from2 <- fixfrom(from2, "Easton Maryland", "Easton, Maryland")
+from2 <- fixfrom(from2, "Nellis Air Force Base, Las Vegas", "Las Vegas, Nevada")
+from2 <- fixfrom(from2, "Yellowstone National Park, Wyoming And Montana", "Yellowstone National Park, Wyoming")
 from2 <- fixfrom(from2, "Rowland's Castle, Hampshire, England",
   "Rowland's Castle, England")
+from2 <- fixfrom(from2, "Leeds, Yorkshire England", "Leeds, England")
 from2 <- fixfrom(from2, "Sault StE. Marie, Canada", "Sault Ste. Marie, Canada")
+from2 <- fixfrom(from2, "Surrey, British Colombia", "Surrey, British Columbia")
 from2 <- fixfrom(from2, "Seattle Washington", "Seattle, Washington")
+from2 <- fixfrom(from2, "Cassopolis, Mighigan", "Cassopolis, Michigan")
 from2 <- fixfrom(from2, "Trinidad And Tobago And Now In New York",
   "New York, New York")
 from2 <- fixfrom(from2, "Jamaica, Now Living In Toronto, Ontario, Canada",
@@ -160,13 +169,15 @@ from2 <- sub(", Now Stationed In.*", "", from2)
 ```
 
 Drop province from Canadian players.
+If Canada is not included, add it after the city.
 
 ```{r canada, eval=TRUE}
 from2 <- sub(" Ontario Canada", " Ontario, Canada", from2)
 for(p in c("Alberta", "British Columbia", "Manitoba", "New Brunswick", 
   "Newfoundland And Labrador", "Nova Scotia", "Ontario",
   "Prince Edward Island", "Quebec", "Saskatchewan", "Yukon Territory")) {
-  from2 <- sub(paste0(", ", p, ","), ",", from2)
+  from2 <- sub(paste0(", ", p, ", Canada"), ", Canada", from2)
+  from2 <- sub(paste0(", ", p), ", Canada", from2)
 }
 ```
 
