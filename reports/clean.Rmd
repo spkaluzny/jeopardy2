@@ -195,6 +195,17 @@ d[["from"]] <- from2
 d[["occupation"]] <- occupation2
 ```
 
+## Name
+Create a `name` variable by pasting together `first` and `last`,
+add it to the data
+and from `first` and `last`.
+
+```{r name}
+d[["first"]] <- gsub("\\\\", "", d[["first"]])
+d[["name"]] <- paste(d[["first"]], d[["last"]])
+d <- select(d, -first, -last)
+```
+
 ## City / State
 To analyze data at the state level,
 split `from` into `city` and `state`.
@@ -307,11 +318,11 @@ d <- d[-indx_not_regular,]
 To facilitate analysis of on player basis,
 no matter how many games they played,
 we will create a play id by pasting together the
-`first`, `last`, `occupation`, `city` and `state` variables.
+`name`, `occupation`, `city` and `state` variables.
 
 ```{r playerid}
 d[["playerid"]] <- with(d,
-  paste(first, last, occupation, city, state, sep="."))
+  paste(name, occupation, city, state, sep="."))
 ```
 
 Analysis of `playerid` indicated that it uniquely identified players
