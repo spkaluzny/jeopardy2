@@ -330,7 +330,7 @@ season_breaks <- seq(from=as.Date(paste0(startyear, "-09-01")),
   by="year")
 season <- cut(d[["date"]], breaks=season_breaks,
   labels=seq_len(length(season_breaks) - 1))
-d[["season"]] <- season
+d[["season"]] <- as.numeric(season)
 ```
 
 Check start and end games for each season.
