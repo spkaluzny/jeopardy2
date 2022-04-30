@@ -21460,3 +21460,69 @@
 7320|8608|2022-03-30|""|"Joey"|"Lavarias"|"Bassoonist And Graduate Student"|"Greensboro, North Carolina"|8500|10200|14|2|2200|11000|8500|0|1
 7320|8608|2022-03-30|""|"Candace"|"Orsetti"|"Writer And Editor"|"Annapolis, Maryland"|0|7200|15|7|2800|4000|0|1|0
 7320|8608|2022-03-30|""|"Jackie"|"Kelly"|"Pension Calculation Developer"|"Cary, North Carolina"|23999|16600|19|0|14600|23000|23999|0|1
+7321|8609|2022-03-31|""|"Christian"|"Souvenir"|"Senior Intelligence Analyst"|"Brooklyn, New York"|300|1000|8|8|-1400|1000|300|0|0
+7321|8609|2022-03-31|""|"Evan"|"Roberts"|"Chemistry Teacher"|"Louisville, Kentucky"|20400|13200|17|1|5600|17400|20400|0|2
+7321|8609|2022-03-31|""|"Jackie"|"Kelly"|"Pension Calculation Developer"|"Cary, North Carolina"|5199|19600|25|1|9200|20000|5199|0|1
+7322|8610|2022-04-01|""|"Nell"|"Klugman"|"Museum Educator"|"Brooklyn, New York"|24401|26800|30|4|3600|24000|24401|1|2
+7322|8610|2022-04-01|""|"Yian"|"Chen"|"An Anesthesiologist"|"Menlo Park, California"|0|1200|7|3|2400|1200|0|0|0
+7322|8610|2022-04-01|""|"Evan"|"Roberts"|"Chemistry Teacher"|"Louisville, Kentucky"|200|12200|15|1|5800|12200|200|0|0
+7323|8611|2022-04-04|""|"Camron"|"Conners"|"High School Social Studies Teacher"|"Rancho Santa Margarita, California"|24200|19600|23|3|8200|24600|24200|0|2
+7323|8611|2022-04-04|""|"Sarah"|"Cahalan"|"News Assistant"|"Logansport, Indiana"|13000|9000|12|0|5400|9000|13000|0|0
+7323|8611|2022-04-04|""|"Nell"|"Klugman"|"Museum Educator"|"Brooklyn, New York"|1400|4600|12|7|2200|1200|1400|1|0
+7324|8612|2022-04-05|"Mattea Roach game 1."|"Mattea"|"Roach"|"Tutor"|"Toronto, Ontario, Canada"|32001|18600|24|1|4600|18000|32001|0|1
+7324|8612|2022-04-05|"Mattea Roach game 1."|"Kathleen"|"Snyder"|"Government Contractor"|"Arlington, Virginia"|21001|13600|14|2|2400|16000|21001|0|1
+7324|8612|2022-04-05|"Mattea Roach game 1."|"Camron"|"Conners"|"High School Social Studies Teacher"|"Rancho Santa Margarita, California"|1|3200|9|4|-1000|2200|1|1|0
+7325|8613|2022-04-06|"Mattea Roach game 2."|"Lana"|"Altman"|"Digital Programming Manager"|"Southington, Connecticut"|1|2200|8|5|1400|2200|1|0|0
+7325|8613|2022-04-06|"Mattea Roach game 2."|"Vernon"|"Ng"|"An Associate Professor Of English"|"Tacoma, Washington"|3|2200|6|6|-1800|2200|3|0|0
+7325|8613|2022-04-06|"Mattea Roach game 2."|"Mattea"|"Roach"|"Tutor"|"Toronto, Ontario, Canada"|38800|26600|35|2|12800|28800|38800|0|3
+7326|8614|2022-04-07|"Mattea Roach game 3."|"Reagan"|"White"|"College Student"|"Manahawkin, New Jersey"|0|13600|18|3|2400|11600|0|1|0
+7326|8614|2022-04-07|"Mattea Roach game 3."|"Mike"|"Janela"|"Sportscaster"|"Astoria, New York"|1793|4000|9|4|-600|1800|1793|1|0
+7326|8614|2022-04-07|"Mattea Roach game 3."|"Mattea"|"Roach"|"Tutor"|"Toronto, Ontario, Canada"|9599|15000|20|1|6600|16400|9599|0|1
+7327|8615|2022-04-08|"Mattea Roach game 4."|"Abigail"|"Davis"|"College Administrator"|"Clarkesville, Georgia"|6100|5200|8|2|0|3600|6100|1|0
+7327|8615|2022-04-08|"Mattea Roach game 4."|"Tom"|"Nucum"|"Real Estate Agent"|"Baltimore, Maryland"|500|3400|7|4|200|400|500|1|0
+7327|8615|2022-04-08|"Mattea Roach game 4."|"Mattea"|"Roach"|"Tutor"|"Toronto, Ontario, Canada"|24200|24200|31|3|7400|22200|24200|1|0
+7328|8616|2022-04-11|"Mattea Roach game 5. Ken Jennings hosts."|"Michael"|"Wolman"|"Marketing Manager"|"Austin, Texas"|4600|10200|15|3|5200|12600|4600|0|2
+7328|8616|2022-04-11|"Mattea Roach game 5. Ken Jennings hosts."|"Vanessa"|"Mccombs"|"College Instructor"|"Manassas, Virginia"|0|4600|9|4|600|2600|0|1|0
+7328|8616|2022-04-11|"Mattea Roach game 5. Ken Jennings hosts."|"Mattea"|"Roach"|"Tutor"|"Toronto, Ontario, Canada"|12600|10200|20|3|7000|10200|12600|0|0
+7329|8617|2022-04-12|"Mattea Roach game 6."|"Zhe"|"Lu"|"Software Engineer"|"Boston, Massachusetts"|1900|5800|12|4|2600|5800|1900|0|0
+7329|8617|2022-04-12|"Mattea Roach game 6."|"Leah"|"Q. Pence"|"Social Studies Teacher"|"Woodstock, Georgia"|12856|7800|8|2|-200|7800|12856|0|1
+7329|8617|2022-04-12|"Mattea Roach game 6."|"Mattea"|"Roach"|"Tutor"|"Toronto, Ontario, Canada"|30800|23000|32|1|9600|25400|30800|0|2
+7330|8618|2022-04-13|"Mattea Roach game 7."|"Adam"|"Wallick"|"An Airline Planning Analyst"|"Chicago, Illinois"|0|6400|12|3|2000|10200|0|0|3
+7330|8618|2022-04-13|"Mattea Roach game 7."|"Rachel"|"Skytt"|"Bookseller"|"Burbank, California"|8000|8000|12|0|4000|8000|8000|0|0
+7330|8618|2022-04-13|"Mattea Roach game 7."|"Mattea"|"Roach"|"Tutor"|"Toronto, Ontario, Canada"|20401|20400|23|1|7200|20400|20401|0|0
+7331|8619|2022-04-14|"Mattea Roach game 8."|"Joe"|"Grodahl"|"Non-Profit And Events Director"|"Edina, Minnesota"|100|2400|6|2|2400|2400|100|0|0
+7331|8619|2022-04-14|"Mattea Roach game 8."|"Kristen"|"Rucki"|"High School English Teacher"|"Astoria, New York"|2250|5000|10|3|1400|3000|2250|1|0
+7331|8619|2022-04-14|"Mattea Roach game 8."|"Mattea"|"Roach"|"Tutor"|"Toronto, Ontario, Canada"|14400|20200|32|4|10200|19400|14400|1|1
+7332|8620|2022-04-15|"Mattea Roach game 9."|"Allan"|"Joseph"|"Fellow In Pediatric Critical Care Medicine"|"Pittsburgh, Pennsylvania"|15000|7600|16|4|4800|10000|15000|0|2
+7332|8620|2022-04-15|"Mattea Roach game 9."|"Katie"|"Teller"|"Dietician"|"Seattle, Washington"|6000|8200|14|2|3000|14000|6000|0|1
+7332|8620|2022-04-15|"Mattea Roach game 9."|"Mattea"|"Roach"|"Tutor"|"Toronto, Ontario, Canada"|28001|21800|22|1|4600|21800|28001|0|0
+7333|8621|2022-04-18|"Mattea Roach game 10."|"Sarah"|"Mcgrath"|"Business Manager"|"New York, New York"|3400|12400|13|1|5200|12400|3400|0|0
+7333|8621|2022-04-18|"Mattea Roach game 10."|"Caitlin"|"Hayes"|"Musician And Educator"|"North Vancouver, British Columbia, Canada"|11800|9800|11|1|3800|9800|11800|0|0
+7333|8621|2022-04-18|"Mattea Roach game 10."|"Mattea"|"Roach"|"Tutor"|"Toronto, Ontario, Canada"|16799|16200|26|2|5000|20800|16799|0|3
+7334|8622|2022-04-19|"Mattea Roach game 11."|"Josh!!"|"Sen"|"Student"|"Edison, New Jersey"|8600|13400|18|3|2800|8600|8600|2|0
+7334|8622|2022-04-19|"Mattea Roach game 11."|"Tina"|"Disciullo-Acker"|"Manager Of Development Events"|"Philadelphia, Pennsylvania"|2000|7000|10|4|1400|7000|2000|0|0
+7334|8622|2022-04-19|"Mattea Roach game 11."|"Mattea"|"Roach"|"Tutor"|"Toronto, Ontario, Canada"|17281|16000|23|2|5600|17400|17281|0|1
+7335|8623|2022-04-20|"Mattea Roach game 12. Single-player Final Jeopardy!"|"Sean"|"Wong"|"An It Support Student"|"Wayzata, Minnesota"|-1600|3200|10|5|1200|-1600|-1600|1|0
+7335|8623|2022-04-20|"Mattea Roach game 12. Single-player Final Jeopardy!"|"Loni"|"Lewis"|"Teacher Librarian"|"Charleston, South Carolina"|-600|-600|6|4|1000|-600|-600|0|0
+7335|8623|2022-04-20|"Mattea Roach game 12. Single-player Final Jeopardy!"|"Mattea"|"Roach"|"Tutor"|"Toronto, Ontario, Canada"|26400|19200|31|3|11000|21400|26400|0|2
+7336|8624|2022-04-21|"Mattea Roach game 13."|"Meghan"|"Bowman"|"An It Analyst"|"Mount Prospect, Illinois"|7500|4000|7|1|2000|4000|7500|0|0
+7336|8624|2022-04-21|"Mattea Roach game 13."|"Alex"|"Lemberg"|"An Attorney And Activist"|"San Francisco, California"|4600|17000|20|2|6000|12600|4600|1|1
+7336|8624|2022-04-21|"Mattea Roach game 13."|"Mattea"|"Roach"|"Tutor"|"Toronto, Ontario, Canada"|14799|18200|23|0|5400|20000|14799|0|1
+7337|8625|2022-04-22|"Mattea Roach game 14."|"Anna"|"Meyer"|"Food Technologist"|"Seattle, Washington"|0|4800|10|4|-400|1600|0|1|0
+7337|8625|2022-04-22|"Mattea Roach game 14."|"Claire"|"Dozier"|"Non-Profit Professional"|"Atlanta, Georgia"|2399|2200|9|4|0|2800|2399|0|1
+7337|8625|2022-04-22|"Mattea Roach game 14."|"Mattea"|"Roach"|"Tutor"|"Toronto, Ontario, Canada"|34000|25200|28|5|5600|26000|34000|0|1
+7338|8626|2022-04-25|"Mattea Roach game 15."|"Michael"|"Graff"|"Mascot"|"Eastvale, California"|100|5000|9|3|600|5000|100|0|0
+7338|8626|2022-04-25|"Mattea Roach game 15."|"Jessie"|"Francis"|"Mental Health Therapist"|"Marietta, Georgia"|10300|9600|15|3|7000|10200|10300|0|1
+7338|8626|2022-04-25|"Mattea Roach game 15."|"Mattea"|"Roach"|"Tutor"|"Toronto, Ontario, Canada"|32700|22400|26|1|6400|27200|32700|0|2
+7339|8627|2022-04-26|"Mattea Roach game 16."|"Reya"|"Sehgal"|"Cultural Strategist And Performer"|"Brooklyn, New York"|9900|5000|9|1|3800|5000|9900|0|0
+7339|8627|2022-04-26|"Mattea Roach game 16."|"Nicky"|"Smith"|"Debate Instructor"|"San Francisco, California"|-800|-800|5|4|-400|-800|-800|0|0
+7339|8627|2022-04-26|"Mattea Roach game 16."|"Mattea"|"Roach"|"Tutor"|"Toronto, Ontario, Canada"|16200|25800|33|4|8000|23200|16200|1|2
+7340|8628|2022-04-27|"Mattea Roach game 17."|"Christina"|"Clark"|"An Elementary Music Teacher"|"De Pere, Wisconsin"|3100|8400|12|0|4000|8400|3100|0|0
+7340|8628|2022-04-27|"Mattea Roach game 17."|"Ben"|"Hsia"|"R&D Engineer"|"Fremont, California"|27200|10800|11|2|2400|13600|27200|0|1
+7340|8628|2022-04-27|"Mattea Roach game 17."|"Mattea"|"Roach"|"Tutor"|"Toronto, Ontario, Canada"|27201|22800|30|3|6000|27200|27201|1|1
+7341|8629|2022-04-28|"Mattea Roach game 18."|"Manav"|"Jain"|"An Undergraduate Student"|"Clemson, South Carolina"|500|600|4|2|3000|600|500|0|0
+7341|8629|2022-04-28|"Mattea Roach game 18."|"Renée"|"Russell"|"Branch Office Administrator"|"Baltimore, Maryland"|1201|15000|17|0|5200|21000|1201|0|2
+7341|8629|2022-04-28|"Mattea Roach game 18."|"Mattea"|"Roach"|"Tutor"|"Toronto, Ontario, Canada"|42001|22200|30|2|9800|22600|42001|0|1
+7342|8630|2022-04-29|"Mattea Roach game 19."|"Terri"|"Huggins"|"An Associate Director Of Admissions"|"New York, New York"|1|800|6|3|1200|800|1|0|0
+7342|8630|2022-04-29|"Mattea Roach game 19."|"Julian"|"Glander"|"An Animator"|"Pittsburgh, Pennsylvania"|4999|13000|18|1|4200|11000|4999|1|0
+7342|8630|2022-04-29|"Mattea Roach game 19."|"Mattea"|"Roach"|"Tutor"|"Toronto, Ontario, Canada"|22001|20200|25|3|3400|17000|22001|1|1
