@@ -1,4 +1,4 @@
-ea--
+---
 title: "Cleaning Jeopardy Data"
 author: "Stephen Kaluzny"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
