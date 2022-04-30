@@ -1,4 +1,4 @@
----
+ea--
 title: "Cleaning Jeopardy Data"
 author: "Stephen Kaluzny"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
@@ -314,10 +314,37 @@ d <- d[-indx_not_regular,]
 
 ## Additional Variables
 
+### Season
+
+Add a season variable.
+The regular season starts in September
+and typically ends in July of the following year.
+
+```{r season}
+startyear <- lubridate::year(min(d[["date"]]))
+endyear <- lubridate::year(max(d[["date"]]))
+endmonth <- lubridate::month(max(d[["date"]]))
+if(endmonth > 8) endyear <- endyear + 1
+season_breaks <- seq(from=as.Date(paste0(startyear, "-09-01")),
+  to=as.Date(paste0(endyear, "-09-01")),
+  by="year")
+season <- cut(d[["date"]], breaks=season_breaks,
+  labels=seq_len(length(season_breaks) - 1))
+d[["season"]] <- season
+```
+
+Check start and end games for each season.
+
+```{r season_min_max}
+d |> group_by(season) |>
+  summarise(start=min(date), end=max(date)) |>
+  as.data.frame()
+```
+
 ### Player Id
 To facilitate analysis of on player basis,
 no matter how many games they played,
-we will create a play id by pasting together the
+we will create a player id by pasting together the
 `name`, `occupation`, `city` and `state` variables.
 
 ```{r playerid}
