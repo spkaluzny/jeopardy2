@@ -39,7 +39,6 @@ The variable names and type.
 sapply(d, class)
 ```
 
-
 ## Data Clean Up
 
 The `occupation`, `from`, and `last` variables need work.
@@ -196,13 +195,26 @@ d[["occupation"]] <- occupation2
 ```
 
 ## Name
+Fix the `first` and `last` variables.
+Often second word of `first` name is repaeated as the first word in the
+`last` name.
+
+```{r duplicate_name_pieces}
+splt_first <- stringr::str_split_fixed(d[["first"]], " ", n=2)
+splt_last <- stringr::str_split_fixed(d[["last"]], " ", n=2)
+indx_f2_l1 <- which(splt_first[, 2] == splt_last[, 1] &
+  splt_first[, 2] != "" &
+  splt_last[, 1] != "")
+d[indx_f2_l1, "last"] <- splt_last[indx_f2_l1, 2]
+```
+
 Create a `name` variable by pasting together `first` and `last`,
 add it to the data
-and from `first` and `last`.
+and drop `first` and `last`.
 
 ```{r name}
 d[["first"]] <- gsub("\\\\", "", d[["first"]])
-d[["name"]] <- paste(d[["first"]], d[["last"]])
+d[["name"]] <- trimws(paste(d[["first"]], d[["last"]]))
 d <- select(d, -first, -last)
 ```
 

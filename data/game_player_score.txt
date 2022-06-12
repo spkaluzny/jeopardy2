@@ -21526,3 +21526,105 @@
 7342|8630|2022-04-29|"Mattea Roach game 19."|"Terri"|"Huggins"|"An Associate Director Of Admissions"|"New York, New York"|1|800|6|3|1200|800|1|0|0
 7342|8630|2022-04-29|"Mattea Roach game 19."|"Julian"|"Glander"|"An Animator"|"Pittsburgh, Pennsylvania"|4999|13000|18|1|4200|11000|4999|1|0
 7342|8630|2022-04-29|"Mattea Roach game 19."|"Mattea"|"Roach"|"Tutor"|"Toronto, Ontario, Canada"|22001|20200|25|3|3400|17000|22001|1|1
+7343|8631|2022-05-02|"Mattea Roach game 20."|"Becky"|"Benninghoff"|"Church Organist"|"Woodbridge, Virginia"|2400|3200|10|3|2000|3200|2400|0|0
+7343|8631|2022-05-02|"Mattea Roach game 20."|"Adam"|"Ilgin"|"Ferryboat Deckhand"|"Lewes, Delaware"|0|8400|13|1|3600|8400|0|0|0
+7343|8631|2022-05-02|"Mattea Roach game 20."|"Mattea"|"Roach"|"Tutor"|"Toronto, Ontario, Canada"|16801|15600|19|1|5800|16200|16801|1|2
+7344|8632|2022-05-03|"Mattea Roach game 21."|"Enver"|"Casimir"|"History Teacher"|"Albany, California"|17800|9800|15|2|6600|9800|17800|0|1
+7344|8632|2022-05-03|"Mattea Roach game 21."|"Angela"|"Kissner"|"An Educational Consultant & Tutor"|"Akron, Ohio"|600|600|3|1|200|600|600|0|0
+7344|8632|2022-05-03|"Mattea Roach game 21."|"Mattea"|"Roach"|"Tutor"|"Toronto, Ontario, Canada"|29599|23000|31|4|7800|24600|29599|0|2
+7345|8633|2022-05-04|"Mattea Roach game 22."|"Jaime"|"Sisson"|"Fair And Responsible Banking Manager"|"Madison, Mississippi"|13200|6600|11|1|2600|6600|13200|0|0
+7345|8633|2022-05-04|"Mattea Roach game 22."|"Kelly"|"Flynn"|"High School English Teacher"|"Exeter, New Hampshire"|-2600|-800|8|7|3000|-2600|-2600|1|1
+7345|8633|2022-05-04|"Mattea Roach game 22."|"Mattea"|"Roach"|"Tutor"|"Toronto, Ontario, Canada"|28400|27000|28|3|7000|28400|28400|0|1
+7346|8634|2022-05-05|"Mattea Roach game 23."|"Sarah"|"Snider"|"Middle School Humanities Teacher"|"Fishers, Indiana"|17600|17400|21|2|8000|22600|17600|0|2
+7346|8634|2022-05-05|"Mattea Roach game 23."|"T.J."|"Lovejoy"|"Mortgage Lender"|"Chandler, Arizona"|-3600|-3600|3|3|400|-3600|-3600|0|0
+7346|8634|2022-05-05|"Mattea Roach game 23."|"Mattea"|"Roach"|"Tutor"|"Toronto, Ontario, Canada"|25999|15000|24|3|5000|13000|25999|1|0
+7347|8635|2022-05-06|"Mattea Roach game 24. Danielle Maurer ends Mattea's streak."|"Danielle"|"Maurer"|"Digital Marketing Manager"|"Peachtree Corners, Georgia"|15600|6200|11|3|5600|11400|15600|0|2
+7347|8635|2022-05-06|"Mattea Roach game 24. Danielle Maurer ends Mattea's streak."|"Betsy"|"Hobbs"|"Senior Operations Manager Originally"|"Thornton, Illinois"|400|7400|9|4|200|7400|400|0|0
+7347|8635|2022-05-06|"Mattea Roach game 24. Danielle Maurer ends Mattea's streak."|"Mattea"|"Roach"|"Tutor"|"Toronto, Ontario, Canada"|15599|17800|28|3|7800|19200|15599|0|1
+7348|8636|2022-05-09|"Mayim Bialik hosts."|"Emily"|"Levant"|"An Associate Creative Director"|"Los Angeles, California"|1400|8400|16|3|3600|8400|1400|0|0
+7348|8636|2022-05-09|"Mayim Bialik hosts."|"Karim"|"Oliver"|"Student At Vanderbilt University"|"ST. Petersburg, Florida"|400|4400|8|5|1400|1400|400|2|0
+7348|8636|2022-05-09|"Mayim Bialik hosts."|"Danielle"|"Maurer"|"Digital Marketing Manager"|"Peachtree Corners, Georgia"|12399|13400|18|0|5400|14600|12399|0|1
+7349|8637|2022-05-10|""|"Cherry"|"Ignacio"|"Software Product Manager"|"Maryland Heights, Missouri"|700|2800|8|5|1200|2800|700|0|0
+7349|8637|2022-05-10|""|"Mallory"|"Kass"|"Children's Book Editor"|"Brooklyn, New York"|14100|8400|16|1|8300|9100|14100|0|1
+7349|8637|2022-05-10|""|"Danielle"|"Maurer"|"Digital Marketing Manager"|"Peachtree Corners, Georgia"|8599|12200|19|4|1800|13400|8599|0|2
+7350|8638|2022-05-11|""|"Daniel"|"Nguyen"|"High School Math Teacher"|"San Jose, California"|7199|11600|17|3|5200|13000|7199|0|1
+7350|8638|2022-05-11|""|"Micaela"|"Tuttle"|"Wine Import Manager"|"Nashville, Tennessee"|3400|9000|15|2|3800|9400|3400|0|1
+7350|8638|2022-05-11|""|"Mallory"|"Kass"|"Children's Book Editor"|"Brooklyn, New York"|2700|7200|13|4|600|6200|2700|1|0
+7351|8639|2022-05-12|""|"Charly"|"Kuecks"|"Writer & Test Prep Expert"|"Salt Lake City, Utah"|2801|7600|12|2|800|7600|2801|0|0
+7351|8639|2022-05-12|""|"Matt"|"Petroff"|"Management Consultant"|"Toronto, Ontario, Canada"|400|200|7|4|2600|200|400|0|0
+7351|8639|2022-05-12|""|"Daniel"|"Nguyen"|"High School Math Teacher"|"San Jose, California"|18000|20200|23|3|6000|18000|18000|2|1
+7352|8640|2022-05-13|"Ryan Long game 1."|"Ryan"|"Long"|"Rideshare Driver"|"Philadelphia, Pennsylvania"|18800|11600|20|4|2000|12000|18800|0|1
+7352|8640|2022-05-13|"Ryan Long game 1."|"Marie"|"Shapiro"|"Retired School Registrar"|"San Francisco, California"|12700|6200|10|4|4300|6700|12700|0|1
+7352|8640|2022-05-13|"Ryan Long game 1."|"Daniel"|"Nguyen"|"High School Math Teacher"|"San Jose, California"|11199|15600|19|0|4000|17600|11199|0|1
+7353|1490|1991-02-08|""|"Philip"|"Peloquin"|"Stockbroker Originally"|"Webster, Massachusetts"|20|2400|11|4|1600|1400|20|1|0
+7353|1490|1991-02-08|""|"Susan"|"Shaw"|"Market Researcher"|"Wallingford, Pennsylvania"|500|1500|14|5|2300|500|500|1|0
+7353|1490|1991-02-08|""|"Marta"|"Newman"|"Media Assistant"|"Fort Lauderdale, Florida"|2801|2600|14|7|700|2100|2801|1|0
+7354|1578|1991-06-12|""|"Jeff"|"Moeller"|"An Attorney"|"Anchorage, Alaska"|11000|11000|27|0|5400|11400|11000|0|1
+7354|1578|1991-06-12|""|"Al"|"Greengold"|"Mailman Originally"|"Rahway, New Jersey"|4900|4900|13|2|1100|4900|4900|0|0
+7354|1578|1991-06-12|""|"Mark"|"Strauch"|"Molecular Biologist Originally"|"South Bend, Indiana"|4800|5900|13|2|1500|2400|4800|2|0
+7355|8641|2022-05-16|"Ryan Long game 2."|"Divya"|"Badri"|"Software Developer"|"Coal Valley, Illinois"|3300|4000|9|3|400|4000|3300|0|0
+7355|8641|2022-05-16|"Ryan Long game 2."|"Nick"|"Dee"|"Photographer"|"Los Angeles, California"|21199|17600|19|2|4000|14600|21199|1|0
+7355|8641|2022-05-16|"Ryan Long game 2."|"Ryan"|"Long"|"Rideshare Driver"|"Philadelphia, Pennsylvania"|24200|17200|20|4|8600|16200|24200|1|1
+7356|1579|1991-06-13|""|"Don"|"Henry"|"Physician"|"Munster, Indiana"|12399|7300|20|3|2900|9700|12399|0|1
+7356|1579|1991-06-13|""|"Harry"|"Kelly"|"Law Student"|"Portland, Maine"|7005|6200|15|3|600|6200|7005|0|0
+7356|1579|1991-06-13|""|"Jeff"|"Moeller"|"An Attorney"|"Anchorage, Alaska"|14000|7900|18|2|2600|7000|14000|1|1
+7358|8642|2022-05-17|"Ryan Long game 3."|"Justinne"|"Lake-Jedzinak"|"Museum Educator"|"Oyster Bay, New York"|3999|5600|8|1|1200|6200|3999|0|1
+7358|8642|2022-05-17|"Ryan Long game 3."|"Jason"|"Smith"|"Head Of Risk Operations"|"Scottsdale, Arizona"|12500|15200|17|0|6400|16000|12500|0|1
+7358|8642|2022-05-17|"Ryan Long game 3."|"Ryan"|"Long"|"Rideshare Driver"|"Philadelphia, Pennsylvania"|27000|13200|24|2|9200|20000|27000|0|1
+7359|1580|1991-06-14|""|"Nadine"|"Fiedler"|"Production Coordinator"|"Portland, Oregon"|7301|5300|17|2|2900|4700|7301|1|1
+7359|1580|1991-06-14|""|"Jonathan"|"Heller"|"An Archivist"|"Washington, D.C."|13300|8300|20|3|3500|6700|13300|1|0
+7359|1580|1991-06-14|""|"Jeff"|"Moeller"|"An Attorney"|"Anchorage, Alaska"|1199|7300|18|3|2100|7300|1199|0|0
+7360|8643|2022-05-18|"Ryan Long game 4."|"Audrey"|"Kamzan"|"Pediatric Hospitalist"|"Los Angeles, California"|12200|7200|12|2|3200|7200|12200|0|0
+7360|8643|2022-05-18|"Ryan Long game 4."|"Adriana"|"Ramírez"|"Writer"|"Pittsburgh, Pennsylvania"|-200|800|8|4|2800|-200|-200|1|0
+7360|8643|2022-05-18|"Ryan Long game 4."|"Ryan"|"Long"|"Rideshare Driver"|"Philadelphia, Pennsylvania"|16600|19400|29|3|8600|26600|16600|0|2
+7361|8644|2022-05-19|"Ryan Long game 5."|"Julie Ann"|"Ann Crommett"|"Diversity & Inclusion Strategist"|"Atlanta, Georgia"|400|1800|9|5|200|400|400|1|0
+7361|8644|2022-05-19|"Ryan Long game 5."|"Bradford"|"Pearson"|"Journalist & Author"|"Philadelphia, Pennsylvania"|0|10600|18|5|2600|9600|0|1|0
+7361|8644|2022-05-19|"Ryan Long game 5."|"Ryan"|"Long"|"Rideshare Driver"|"Philadelphia, Pennsylvania"|19201|15000|20|2|10600|16200|19201|0|1
+7362|8645|2022-05-20|"Ryan Long game 6."|"Toni"|"Alimi"|"Post Doc"|"Ithaca, New York"|4994|7600|14|3|3200|6000|4994|1|0
+7362|8645|2022-05-20|"Ryan Long game 6."|"Li-Mae"|"Mcclellan"|"Law Student"|"ST. Louis, Missouri"|0|12000|15|2|5200|12000|0|0|0
+7362|8645|2022-05-20|"Ryan Long game 6."|"Ryan"|"Long"|"Rideshare Driver"|"Philadelphia, Pennsylvania"|26000|23000|24|2|4200|21000|26000|1|1
+7363|8646|2022-05-23|"Ryan Long game 7."|"Jodi"|"Harris"|"Content Strategist"|"Culver City, California"|1000|4800|8|3|2200|2000|1000|2|0
+7363|8646|2022-05-23|"Ryan Long game 7."|"Mari"|"Chao"|"Writing Center Coordinator"|"Orlando, Florida"|1200|16800|18|3|4000|13300|1200|1|0
+7363|8646|2022-05-23|"Ryan Long game 7."|"Ryan"|"Long"|"Rideshare Driver"|"Philadelphia, Pennsylvania"|13400|18000|23|1|4000|18000|13400|0|0
+7364|8647|2022-05-24|"Ryan Long game 8."|"Bonnie"|"Kistler"|"Novelist"|"Sarasota, Florida"|0|7600|15|4|3600|7600|0|0|1
+7364|8647|2022-05-24|"Ryan Long game 8."|"Eric"|"Pérez"|"An Order Management Specialist"|"Shallow Lake, Ontario, Canada"|11598|5800|8|0|2200|5800|11598|0|0
+7364|8647|2022-05-24|"Ryan Long game 8."|"Ryan"|"Long"|"Rideshare Driver"|"Philadelphia, Pennsylvania"|15200|19200|24|6|3600|15200|15200|2|0
+7365|8648|2022-05-25|"Ryan Long game 9."|"Noura"|"Dabbouseh"|"Physician"|"Clarendon Hills, Illinois"|200|4200|8|3|1400|4200|200|0|0
+7365|8648|2022-05-25|"Ryan Long game 9."|"Kris"|"Olson"|"High School Music Teacher"|"Lexington, Kentucky"|12600|8800|10|3|600|6300|12600|2|1
+7365|8648|2022-05-25|"Ryan Long game 9."|"Ryan"|"Long"|"Rideshare Driver"|"Philadelphia, Pennsylvania"|12900|12800|28|5|10000|12800|12900|0|0
+7366|8649|2022-05-26|"Ryan Long game 10."|"John"|"Seroff"|"Performing Arts Publicist"|"Brooklyn, New York"|3000|7000|13|4|3000|3000|3000|1|0
+7366|8649|2022-05-26|"Ryan Long game 10."|"Tory"|"Waltrip"|"Senior Account Manager"|"Seattle, Washington"|2600|4600|7|2|2600|4600|2600|0|0
+7366|8649|2022-05-26|"Ryan Long game 10."|"Ryan"|"Long"|"Rideshare Driver"|"Philadelphia, Pennsylvania"|10000|13000|22|7|1600|10000|10000|2|0
+7367|8650|2022-05-27|"Ryan Long game 11."|"Aaron"|"Gulyas"|"Community College History Instructor"|"Grand Blanc, Michigan"|14800|15000|24|4|6400|14800|14800|1|1
+7367|8650|2022-05-27|"Ryan Long game 11."|"Srimal"|"Choi"|"Chief Strategy Officer"|"Falls Church, Virginia"|5000|7200|9|1|800|7000|5000|0|1
+7367|8650|2022-05-27|"Ryan Long game 11."|"Ryan"|"Long"|"Rideshare Driver"|"Philadelphia, Pennsylvania"|25999|13000|17|2|4600|13000|25999|0|0
+7368|8651|2022-05-30|"Ryan Long game 12."|"Steve"|"Knapp"|"Middle School Teacher"|"San Ramon, California"|6400|8400|10|0|3200|8400|6400|0|0
+7368|8651|2022-05-30|"Ryan Long game 12."|"Mandy"|"Walker"|"An Account Tech"|"Mount Juliet, Tennessee"|0|9800|14|3|2200|4800|0|1|0
+7368|8651|2022-05-30|"Ryan Long game 12."|"Ryan"|"Long"|"Rideshare Driver"|"Philadelphia, Pennsylvania"|17000|20800|25|1|7000|18000|17000|1|1
+7369|8652|2022-05-31|"Ryan Long game 13."|"Carissa"|"Faroughi"|"An Architect"|"Falls Church, Virginia"|100|4200|9|3|-600|4200|100|0|1
+7369|8652|2022-05-31|"Ryan Long game 13."|"Kenny"|"Liew"|"Software Engineer Originally"|"Los Angeles, California"|8401|6800|7|1|1600|6800|8401|0|0
+7369|8652|2022-05-31|"Ryan Long game 13."|"Ryan"|"Long"|"Rideshare Driver"|"Philadelphia, Pennsylvania"|26400|26600|31|2|9600|28400|26400|0|2
+7370|8653|2022-06-01|"Ryan Long game 14."|"Meagan"|"Morrow"|"Real Estate Manager"|"Portland, Oregon"|6800|14600|16|1|5000|16800|6800|0|1
+7370|8653|2022-06-01|"Ryan Long game 14."|"Vanessa"|"Williams"|"An Assistant Dean"|"Philadelphia, Pennsylvania"|0|2200|9|2|3800|2200|0|0|0
+7370|8653|2022-06-01|"Ryan Long game 14."|"Ryan"|"Long"|"Rideshare Driver"|"Philadelphia, Pennsylvania"|7400|14600|22|6|3800|15400|7400|0|2
+7371|8654|2022-06-02|"Ryan Long game 15."|"Tom"|"Philipose"|"Writing Professor"|"Forest Hills, New York"|0|18600|20|0|8800|18800|0|0|1
+7371|8654|2022-06-02|"Ryan Long game 15."|"Maya"|"Sudarsana"|"Customer Success Manager"|"Boston, Massachusetts"|0|5000|8|2|-200|2000|0|1|0
+7371|8654|2022-06-02|"Ryan Long game 15."|"Ryan"|"Long"|"Rideshare Driver"|"Philadelphia, Pennsylvania"|19300|21800|28|1|8600|22800|19300|0|1
+7372|8655|2022-06-03|"Ryan Long game 16."|"Wyatt"|"Yankus"|"Policy Analyst"|"Washington, D.C."|13600|11200|15|3|4200|8800|13600|1|1
+7372|8655|2022-06-03|"Ryan Long game 16."|"Lucia"|"Yang"|"Medical & Doctoral Student Originally"|"San Diego, California"|4200|4200|4|1|600|4200|4200|0|0
+7372|8655|2022-06-03|"Ryan Long game 16."|"Ryan"|"Long"|"Rideshare Driver"|"Philadelphia, Pennsylvania"|20000|17400|26|2|4600|19200|20000|0|1
+7373|8656|2022-06-06|"Ryan Long game 17. Eric Ahasic game 1."|"Stephanie"|"Garrison"|"An Actor"|"Laguna Hills, California"|3200|9200|14|5|2400|9200|3200|0|0
+7373|8656|2022-06-06|"Ryan Long game 17. Eric Ahasic game 1."|"Eric"|"Ahasic"|"Meteorologist"|"Minneapolis, Minnesota"|18401|13600|20|3|3600|10200|18401|1|1
+7373|8656|2022-06-06|"Ryan Long game 17. Eric Ahasic game 1."|"Ryan"|"Long"|"Rideshare Driver"|"Philadelphia, Pennsylvania"|1|8800|14|5|2400|6800|1|1|0
+7374|8657|2022-06-07|"Eric Ahasic game 2."|"Elaine"|"Hesser"|"Features Editor"|"Salinas, California"|1400|7400|10|1|1800|7400|1400|0|0
+7374|8657|2022-06-07|"Eric Ahasic game 2."|"Michael"|"Toughill"|"Senior Marketing Analyst"|"Seattle, Washington"|4546|10000|14|1|3600|10000|4546|0|0
+7374|8657|2022-06-07|"Eric Ahasic game 2."|"Eric"|"Ahasic"|"Meteorologist"|"Minneapolis, Minnesota"|21600|24600|27|3|3400|25800|21600|1|2
+7375|8658|2022-06-08|"Eric Ahasic game 3."|"Tessa"|"Matsuzaki"|"Graphic Designer"|"Vancouver, British Columbia, Canada"|16399|11800|16|4|3800|11800|16399|0|0
+7375|8658|2022-06-08|"Eric Ahasic game 3."|"Maggie"|"Sharpe"|"High School Math Teacher"|"Los Angeles, California"|1|3600|9|2|800|3600|1|0|0
+7375|8658|2022-06-08|"Eric Ahasic game 3."|"Eric"|"Ahasic"|"Meteorologist"|"Minneapolis, Minnesota"|35600|19600|26|2|6600|30600|35600|0|3
+7376|8659|2022-06-09|"Eric Ahasic game 4."|"Sean"|"Mcgrath"|"Middle School Teacher"|"Washington, D.C."|11599|5800|13|2|3800|5800|11599|0|0
+7376|8659|2022-06-09|"Eric Ahasic game 4."|"Allison"|"Macdonald"|"Lawyer"|"Randolph, New Jersey"|12400|10400|12|0|3200|10400|12400|0|0
+7376|8659|2022-06-09|"Eric Ahasic game 4."|"Eric"|"Ahasic"|"Meteorologist"|"Minneapolis, Minnesota"|30200|20400|25|2|8400|32600|30200|0|3
+7377|8660|2022-06-10|"Eric Ahasic game 5."|"Siobhan"|"Doherty"|"Voice & Speech Teacher Originally"|"Santa Barbara, California"|3595|3400|7|2|2400|3600|3595|0|1
+7377|8660|2022-06-10|"Eric Ahasic game 5."|"Randy"|"Moss"|"An Attorney"|"Walnut Creek, California"|14000|13800|17|1|5400|13800|14000|0|0
+7377|8660|2022-06-10|"Eric Ahasic game 5."|"Eric"|"Ahasic"|"Meteorologist"|"Minneapolis, Minnesota"|28000|25600|31|1|7600|28400|28000|0|2
